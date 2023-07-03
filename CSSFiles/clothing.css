@@ -31,6 +31,7 @@
        padding: 8px 30px;
        margin:30px 0;
        border-radius: 30px;
+       text-decoration: none;
        }
    .btn:hover{
        background-color: black;
@@ -77,6 +78,7 @@
     position: absolute;
     bottom: -10%;
     right: 54%;
+    text-decoration: none;
 }
 .shop-btn:hover{
     background-color: black;
@@ -138,4 +140,102 @@ width: 1080px;
     width: 1250px;
     height: 400px;
     margin: 30px;
+}
+.Wrow1{
+    display: flex;
+    position: relative;
+}
+.Wrow1col img{
+    height:300px;
+    width:220px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.subheading1{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.first-container{
+    background-color:rgb(175, 175, 205);
+}
+.offer{
+    background-color: rgb(78, 35, 97);
+    color: white;
+    position: absolute;
+    border: none;
+    width: 220px;
+    height: 50px;
+    bottom: 24px;
+    left: 20px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.offer2{
+    background-color: rgb(78, 35, 97);
+    color: white;
+    position: absolute;
+    border: none;
+    width: 220px;
+    height: 50px;
+    bottom: 24px;
+    right: 796px;
+    border-radius: 0px 0px 20px 20px;
+}
+.offer3{
+    background-color: rgb(78, 35, 97);
+    color: white;
+    position: absolute;
+    border: none;
+    width: 220px;
+    height: 50px;
+    bottom: 24px;
+    right: 536px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.offer4{
+    background-color: rgb(78, 35, 97);
+    color: white;
+    position: absolute;
+    border: none;
+    width: 220px;
+    height: 50px;
+    bottom: 24px;
+    right: 276px;
+    border-radius: 0px 0px 20px 20px;
+}
+.offer5{
+    background-color: rgb(78, 35, 97);
+    color: white;
+    position: absolute;
+    border: none;
+    width: 220px;
+    height: 50px;
+    bottom: 24px;
+    right: 16px;
+    border-radius: 0px 0px 20px 20px;
+}
+.Wrow2{
+    display: flex;
+    position: relative;
+}
+.Wrow2col img{
+    height:300px;
+    width:220px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.subheading2{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.Second-container{
+    margin-top: 40px;
+    background-color:rgb(240, 184, 224);
+}
+
+.Wrow3 img{
+    width: 1280px;
+    height: 400px;
+    margin-top: 40px;
 }
