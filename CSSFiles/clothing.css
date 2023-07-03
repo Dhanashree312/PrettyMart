@@ -2,7 +2,26 @@
        margin: 0;
        padding: 0;
        box-sizing: border-box;
-    
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+    .maincontainer {
+      height: auto;
+    }
+    .btn1{
+        background-color: black;
+        border-radius: 100%;
+        height: 150px;
+        width: 150px;
+        margin:10px 30px;
+        color: white;
+    }
+    .btn1 b{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .btn1:hover{
+     box-shadow: 3px 3px 3px 3px black;
     }
     .row-1{
     display: flex;
@@ -13,7 +32,7 @@
     .col-1{
     flex-basis: 50%;
     min-width: 300px;
-   
+    margin-left: 20px;
     }
     .col-2 img{
         height: 400px;
@@ -137,7 +156,7 @@ height: 400px;
 width: 1080px;
 }
 .row-3col img{
-    width: 1250px;
+    width: 100%;
     height: 400px;
     margin: 30px;
 }
