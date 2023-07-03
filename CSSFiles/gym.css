@@ -1,14 +1,26 @@
+
+ #main-1{
+    padding-left: 125px;
+   
+    background-image: url("./../images/gym images/firstmain.jpg");
+    background-position: right;
+    background-size: 700px;
+    background-repeat: no-repeat;
+ }
 .main{
     height: 450px;
-    width: 1500;
+    width: 1400px;
    border: solid 1px black;
    background-image: url("./../images/gym images/fitnessandhealth.jpg" );
-   background-size: 1520px 600px;
+   background-size:1520px 600px;
    color: white;
    font-size: 70px;
-   padding-left: 120px;
+   padding-left: 125px;
+   padding-right: -10px;
    padding-top: 50px;
-   background-color: rgb(67, 68, 69);
+   background-color: black;
+   margin-top: -10px;
+   margin-right: -100px;
 }
 .main-text{
     font-style: italic;
@@ -28,7 +40,10 @@ color: rgb(87, 88, 88);
     border-radius: 10px; 
     margin-top: 50px;
     border: 1px solid rgb(152, 148, 148); 
-    margin-left: 60px;
+    margin-left: 50px;
+}
+.flexbox{
+    display: flex;
 }
 
 .image-consonantiam{
@@ -46,25 +61,18 @@ body{
 }
 
 #cost-size1{
- margin-left: 20px;
-    
-    
-   
+ margin-left: 20px;  
 }
 .cost-size{
     color: rgb(15, 15, 15);
     }
     .Delivery-free{
-        font-size: 14px;
-        display:;
-        
+        font-size: 14px;   
     }
     .cost-size2{
         font-size: 20px;
        margin-top: px;
-
     }
-    
     
     .btn-1{
         padding-left: 30px;
@@ -74,8 +82,6 @@ body{
         margin-left: 2px;
         border: solid 1px rgb(241, 158, 55);
         border-radius: 5px;
-       
-
     }
     .btn-1:hover{
         background-color: rgb(231, 170, 28);
@@ -94,14 +100,13 @@ body{
         text-decoration: none;
         background-color:rgb(248, 131, 15);
         color: rgb(255, 249, 249);
-        margin-left: 720px;
+        margin-left: 650px;
         margin-top: 300px;
         margin-bottom: 400px;
         padding: 3px;
-        padding-left: 10px;
-        padding-right: 10px;
-        border-radius: 5px;
-        
+        padding-left: 80px;
+        padding-right: 80px;
+        border-radius: 5px;  
     }
 
     .btn-showmore:hover{
@@ -109,4 +114,9 @@ body{
         color: aliceblue;
         border-radius: 5px;
         transition: 1s;
+    }
+    .div-showmore{
+       
+        height: 80px;
+        padding-top: 40px;
     }
