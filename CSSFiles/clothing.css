@@ -2,6 +2,7 @@
        margin: 0;
        padding: 0;
        box-sizing: border-box;
+    
     }
     .row-1{
     display: flex;
@@ -12,6 +13,7 @@
     .col-1{
     flex-basis: 50%;
     min-width: 300px;
+   
     }
     .col-2 img{
         height: 400px;
@@ -41,7 +43,7 @@
    
    .categories{
     margin: 70px 0;
-    height: 300px;
+
 }
 .row-2{
     display: flex;
@@ -57,9 +59,10 @@
     
 }
 .row-2col img{
-    height:400px;
-   width: 350px;
+    height: 400px;
+    width: 350px;
    box-shadow: 2px 2px 2px 2px black;
+   margin-left: 50px;
 }
 .row-2col img:hover{
     border-radius: 30px;
@@ -68,11 +71,12 @@
 .shop-btn{
     background-color: rgb(78, 35, 97);
     color: white;
-    margin-left: 10px;
+    margin-right: -50px;
     padding:10px;
     border-radius:30px ;
     position: absolute;
-    top: 1%;
+    bottom: -10%;
+    right: 54%;
 }
 .shop-btn:hover{
     background-color: black;
@@ -85,7 +89,8 @@
     padding-right: 25px;
 }
 .row-2col h3{
-    margin: 20px 100px;
+    margin:20px;
+    margin-left: 150px;
 }
 
 .Title{
@@ -108,5 +113,29 @@
 }
 
 .Title-2{
+        text-align: center;
+        margin: 0 auto 20px;
+        position: relative;
+        line-height: 60px;
 
+}
+.Title-2::after{
+    content: '';
+    background-color: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left:50%;
+    transform: translateX(-50%);
+}
+.row-3{
+height: 400px;
+width: 1080px;
+}
+.row-3col img{
+    width: 1250px;
+    height: 400px;
+    margin: 30px;
 }
