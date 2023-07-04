@@ -14,8 +14,8 @@
             border: none;
            height: 500px;
            width: 600px;
-           background-image:url ("C:\Users\admin\Desktop\PrettyMart\Images\beef-steak-recipe.jpg");
-           background-size: auto;
+           background-image: url ('beef-steak-recipe.jpg');
+           background-size: cover;
           
         }
         .h5
@@ -59,14 +59,104 @@
             text-transform: uppercase;
             font-weight: 500;
         }
-        .row
-        {
-            display: flex;
-    
-    margin-right: -15px;
-    margin-left: -15px;
-}
+        .menu {
+          padding: 50px;
+          text-align: center;
+         }
+
+        .menu-item {
+         display: inline-block;
+         margin: 20px;
+         
+         }
+
+        .menu-item img {
+         width: 250px;
+         height: 250px;
+
         
+}
+.col-3 h5
+{
+    font-family: "Lora", serif;
+    font-size: 16px;
+    color: #555555;
+    margin-bottom: 18px;
+}
+.col-3 h2
+{
+    line-height: 1.25;
+    margin-bottom: 25px;
+    font-size: 40px;
+}
+.col-3 h4
+{
+    margin-bottom: 25px;
+    color: #ff6426;
+    font-size: 24px;
+    font-weight: 300;
+}
+.col-3 p
+{
+    margin-top: 13px;
+    font-family: "Lora", serif;
+    line-height: 1.7;
+    font-size: 15px;
+    margin-bottom: 0px;
+    color: #555555;
+    
+    
+}
+.container
+{
+    display: flex;
+    align-items: center;
+}
+.section-title
+{
+    margin-bottom: none;
+}
+   .section-title p
+   {
+    color: #555555;
+    font-size: 16px;
+    font-family: "Lora", serif;
+   
+   }     
+.section-title h2
+{
+    font-size: 40px;
+    color: #2c3033;
+    line-height: 1.25;
+    font-weight: 700;
+    position: relative;
+    
+}
+
+header {
+
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color:black;
+  text-decoration: none;
+  padding: 10px;
+}
+.container-menu
+{
+display: flex;
+}
 
 
     </style>
@@ -77,50 +167,68 @@
            <p class="p"> We work hard to source premium ingredients and we cook everything from scratch with love.</p>
                 <button class="header-btn">Check our Menu</button>
         </div>
-        <div>
+        
+        <div class="Menu">
             <p>Popular Dishes</p>
             <h2>Our Exclusive Items</h2>
-        </div>
-        <div class="row">
-            <div class="col-1">
-                <div class="single-blog-item">
-                    <div class="single-blog-img"> 
-                        <img src="C:\Users\admin\Desktop\PrettyMart\Images\food-item1.webp" alt="food-item1">
-                    </div>
-                    <div>
-                        <h3>Indian Burger</h3>
-                        <p>Hungry? Try Our Burgers Made with Half Pound Patties.</p>
-                        <button>Order Now</button>
-                    </div>
+            <div class="menu-item">
+                <img src="C:\Users\admin\Desktop\PrettyMart\Images\food-item1.webp" alt="food-item1">
+                <h3>Indian Burger</h3>
+                <p>Hungry? Try Our Burgers Made with Half Pound Patties.</p>
+                <button>Order Now</button>  
+                 
+            </div>
+           
+            <div class="menu-item">
+                <img src="C:\Users\admin\Desktop\PrettyMart\Images\food_item_2.png.webp" alt="food-item2">
+                <h3>Cremy Noodles</h3>
+                <p>Easy to prepare, delightful to eat—Cremy Noodles it is!</p>
+                <button>Order Now</button> 
+                    
+            </div>
+            <div class="menu-item">
+                <img src="C:\Users\admin\Desktop\PrettyMart\Images\food_item_3.png.webp" alt="food-item3">
+                <h3>Honey Meat</h3>
+                <p>Roast beef is a dish of beef that is roasted, generally served as the main dish of a meal.</p>
+                <button>Order Now</button>
+            </div>
+            <div class="menu-item">
+                <img src="C:\Users\admin\Desktop\PrettyMart\Images\penne-pasta.jpg" alt="food-item4">
+                <h3>Penne Pasta</h3>
+                <p>Baked pasta is always a good idea.</p>
+                <button>Order Now</button>
+            </div>
+                    
+         </div>
+            <div class="container">
+            <div class="col-2"><img src="C:\Users\admin\Desktop\PrettyMart\Images\about.png.webp" alt="about"></div>
+            <div class="col-3">
+                <h5 class="col-3 h5">Our History</h5>
+                <h2 class="col-3 h2">Where The Food’s As Good As The Root Beer.</h2>
+                <h4 class="col-3 h4">Satisfying people hunger for simple pleasures</h4>
+                <p class="col-3 p">If you love Maharashtrian food, then head over to PrettyMart.Diners will get to savour Roasted Sweet Potato with Ambi Dal, Mass Wadi with Mango Coconut Curry, and Stuffed Tiger Prawns among other dishes, along with a delicious Kharwas for dessert.  </p>
+            </div>
+            </div>
+            <div class="container-menu">
+                <div class="section-title">
+                    <p class="section-title p">Popular Menu</p>
+                    <h2 class="section-title h2">Delicious Food Menu</h2>
+                </div>
+                <header>
+                    <nav>
+                      <ul>
+                        <li><a href="#">Special</a></li>
+                        <li><a href="#">Breakfast</a></li>
+                        <li><a href="#">Lunch</a></li>
+                        <li><a href="#">Dinner</a></li>
+                        <li><a href="#">Sneaks</a></li>
+                      </ul>
+                    </nav>
+                  </header>
 
-                </div>
+            </div>
 
-            </div>
-            <div class="col-1">
-                <div class="single-blog-item">
-                    <div class="single-blog-img"> 
-                        <img src="C:\Users\admin\Desktop\PrettyMart\Images\food_item_2.png.webp" alt="food-item2">
-                    </div>
-                    <div>
-                        <h3>Cremy Noodles</h3>
-                        <p>Easy to prepare, delightful to eat—Cremy Noodles it is!</p>
-                        <button>Order Now</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-1">
-                <div class="single-blog-item">
-                    <div class="single-blog-img"> 
-                        <img src="C:\Users\admin\Desktop\PrettyMart\Images\food_item_3.png.webp" alt="food-item3">
-                    </div>
-                    <div>
-                        <h3>Honey Meat</h3>
-                        <p>Roast beef is a dish of beef that is roasted, generally served as the main dish of a meal.</p>
-                        <button>Order Now</button>
-                    </div>
-                </div>
-            </div>
-        </div>
+            
         
        
     
