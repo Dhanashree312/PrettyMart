@@ -330,18 +330,18 @@ width: 1080px;
  height: 400px;
  margin-top: 40px;
 }
-@media(max-width:375px){
+@media(max-width:576px){
     .container{
         width: 370px;
         height: auto;
+        position: relative;
     }
     .col-1 h1{
         font-size: 30px;
-        line-height: 60px;
-        margin: 25px 0;
+        margin: 10px;
     }
     .col-2 img{
-        height: 150px;
+        height: 200px;
         padding: 10px;
         margin-bottom: 0px;
     }
