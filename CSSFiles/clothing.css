@@ -59,6 +59,7 @@ body{
    }
    .container{
        background: linear-gradient(rgb(208, 129, 183),#709ad1);
+       width:100%;
    }
    
    .categories{
@@ -162,7 +163,7 @@ width: 1080px;
 }
 .Wrow1{
     display: flex;
-    position: relative;
+    
 }
 .Wrow1col img{
     height:300px;
@@ -176,6 +177,8 @@ width: 1080px;
 }
 .first-container{
     background-color:rgb(175, 175, 205);
+    width: 100%;
+    position: relative;
 }
 .offer{
     background-color: rgb(78, 35, 97);
@@ -187,6 +190,7 @@ width: 1080px;
     bottom: 24px;
     left: 20px;
     border-radius: 0px 0px 20px 20px;
+   
 }
 
 .offer2{
@@ -199,6 +203,7 @@ width: 1080px;
     bottom: 24px;
     right: 796px;
     border-radius: 0px 0px 20px 20px;
+
 }
 .offer3{
     background-color: rgb(78, 35, 97);
@@ -210,6 +215,7 @@ width: 1080px;
     bottom: 24px;
     right: 536px;
     border-radius: 0px 0px 20px 20px;
+   
 }
 
 .offer4{
@@ -222,6 +228,7 @@ width: 1080px;
     bottom: 24px;
     right: 276px;
     border-radius: 0px 0px 20px 20px;
+
 }
 .offer5{
     background-color: rgb(78, 35, 97);
@@ -233,10 +240,10 @@ width: 1080px;
     bottom: 24px;
     right: 16px;
     border-radius: 0px 0px 20px 20px;
+ 
 }
 .Wrow2{
     display: flex;
-    position: relative;
 }
 .Wrow2col img{
     height:300px;
@@ -251,10 +258,75 @@ width: 1080px;
 .Second-container{
     margin-top: 40px;
     background-color:rgb(240, 184, 224);
+    width: 100%;
+    position: relative;
+
+    .ocassional{
+        background-color: rgb(78, 35, 97);
+        color: white;
+        position: absolute;
+        border: none;
+        width: 220px;
+        height: 50px;
+        bottom: 24px;
+        left: 20px;
+        border-radius: 0px 0px 20px 20px;
+       
+    }
+    
+    .ocassional2{
+        background-color: rgb(78, 35, 97);
+        color: white;
+        position: absolute;
+        border: none;
+        width: 220px;
+        height: 50px;
+        bottom: 24px;
+        right: 796px;
+        border-radius: 0px 0px 20px 20px;
+       
+    }
+    .ocassional3{
+        background-color: rgb(78, 35, 97);
+        color: white;
+        position: absolute;
+        border: none;
+        width: 220px;
+        height: 50px;
+        bottom: 24px;
+        right: 536px;
+        border-radius: 0px 0px 20px 20px;
+       
+    }
+    
+    .ocassional4{
+        background-color: rgb(78, 35, 97);
+        color: white;
+        position: absolute;
+        border: none;
+        width: 220px;
+        height: 50px;
+        bottom: 24px;
+        right: 276px;
+        border-radius: 0px 0px 20px 20px;
+       
+    }
+    .ocassional5{
+        background-color: rgb(78, 35, 97);
+        color: white;
+        position: absolute;
+        border: none;
+        width: 220px;
+        height: 50px;
+        bottom: 24px;
+        right: 16px;
+        border-radius: 0px 0px 20px 20px;
+        
+    }
 }
 
 .Wrow3 img{
-    width: 1280px;
+    width: 100%;
     height: 400px;
     margin-top: 40px;
 }
