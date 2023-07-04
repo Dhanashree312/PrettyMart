@@ -170,7 +170,76 @@ a{
    background-repeat: no-repeat;
    position: relative;
 }
+.deals{
+    margin-top: 3%;
+    position: relative;
+}
+.deals h1{
+    position: relative;
+    top: -15px;
+    color: red;
+    font-size: 48px;
+    text-align: center;
+}
 
+.deals-cat{
+    width:80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.d-cat{
+    margin: 10px;
+   
+    width: 22%;
+    height: 180px;
+    
+   position: relative;
+    
+}
+.d-cat h4{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    top: 80%;
+    opacity: 0;
+    transform: translateY(50%);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.d-cat:hover  h4{
+   opacity:  1;
+   transform: translateY(0);
+}
+#d-cat1{
+    background-image: url("../Media/baner-flat-fashion-7.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   position: relative;
+}
+#d-cat2{
+    background-image: url("../Media/retail-black-friday-small-banner-2-opt.jpg");
+   
+   background-size: cover;
+   background-repeat: no-repeat;
+   position: relative;
+}
+#d-cat3{
+    background-image: url("../Media/retail-black-friday-small-banner-1-opt.jpg");
+   
+   background-size: cover;
+   background-repeat: no-repeat;
+   position: relative;
+}
+#d-cat4{
+    background-image: url("../Media/retail-black-friday-small-banner-4-opt.jpg");
+   
+   background-size: cover;
+   background-repeat: no-repeat;
+   position: relative;
+}
 @media(min-width:768px){
     .banner h1{
         font-size:45px;
@@ -205,6 +274,14 @@ a{
         width: 100%;
     }
         .cat{
+            width: 100%;
+        }
+
+        .deals-cat{
+            width: 100%;
+        }
+
+        .d-cat{
             width: 100%;
         }
 
