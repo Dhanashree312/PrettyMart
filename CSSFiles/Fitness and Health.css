@@ -51,9 +51,12 @@ color: rgb(87, 88, 88);
     margin-top: 50px;
     border: 1px solid rgb(152, 148, 148); 
     margin-left: 50px;
+    
+   
 }
 .flexbox{
     display: flex;
+   
 }
 
 .image-consonantiam{
@@ -74,10 +77,11 @@ body{
  margin-left: 20px;  
 }
 .cost-size{
-    color: rgb(15, 15, 15);
+    color: rgb(4, 150, 38);
     }
     .Delivery-free{
-        font-size: 14px;   
+        font-size: 14px; 
+        color: #061e88;  
     }
     .cost-size2{
         font-size: 20px;
@@ -90,20 +94,22 @@ body{
         padding-top: 5px;
         padding-bottom: 5px;
         margin-left: 2px;
-        border: solid 1px rgb(241, 158, 55);
+        border: solid 1px rgb(227, 150, 55);
         border-radius: 5px;
     }
     .btn-1:hover{
-        background-color: rgb(231, 170, 28);
+        background-color: rgb(189, 188, 186);
         border-radius: 5px;
         border: solid 1px;
     }
     .btn{
         margin-left: 20px;
         background-color: rgb(255, 251, 251);
+        color: #fb7e09;
     }
     .btn-a{
         background-color: rgb(225, 138, 30);
+        color: white;
     }
     
     .btn-showmore {
@@ -129,4 +135,20 @@ body{
        
         height: 80px;
         padding-top: 40px;
+    }
+
+    @media screen and (min-width:768px) and (max-width:992px) {
+      #gph{
+        display:flex;
+      }  
+      .flexbox{
+     
+      }
+    }
+
+
+    @media screen and (min-wid:993px) {
+        .flexbox{
+            
+        }
     }

@@ -60,6 +60,8 @@ body{
 .container{
     background: linear-gradient(rgb(208, 129, 183),#709ad1);
     width:100%;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .categories{
@@ -157,9 +159,8 @@ height: 400px;
 width: 1080px;
 }
 .row-3col img{
- width: 1300px;
+ width: 1477px;
  height: 400px;
- margin: 30px;
 }
 .Wrow1{
  display: flex;
