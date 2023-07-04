@@ -11,6 +11,8 @@
     justify-content: space-around;
     background-color: black;
     margin-top: none;
+    padding: 5px;
+    margin-bottom: 0px;
 }
 .child{
     border-radius: 10px;
@@ -21,4 +23,123 @@ body{
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
+}
+.img:hover
+{
+    height: 103px;
+    width: 103px;
+    transition: 0.5s;
+    background-color: #a6a6a6;
+}
+.promo{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.promo-child{
+ background-color: #d9d9d9;
+ text-align: center;
+ align-items: start;
+ padding: 15px;
+ font-size: 20px;
+ width: 465px;
+ height: 130px;
+}
+.promo-child:hover{
+    box-shadow: 0px 1px 10px 1px;
+}
+.promo-text{
+    position: relative;
+    bottom: 110px;
+    color: #4d0000;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+.promo-img{
+    height: 130px;
+    width: 130px;
+    margin-left: 0px;
+}
+.promo-imga{
+    height: 130px;
+    width: 130px;
+    position: relative;
+    bottom: 110px;  
+    left: 80px;
+}
+.promo-imga1{height: 200px;
+    width: 150px;
+    position: relative;
+    bottom: 150px;  
+    left: 80px;}
+.promo-imga2{
+    height: 150px;
+    position: relative;
+    bottom: 150px;  
+    left: 80px;
+    }
+    .home-card{
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .home-card-child{
+        margin-left: 5px;
+        position: relative;
+    }
+.card{
+   height: 280px;
+   border: solid 1px #d9d9d9;
+   border-radius: 5px;
+}
+.card1{
+height: 565px;
+border: solid 1px #d9d9d9;
+   border-radius: 5px;
+}
+.card1:hover{
+  height: 585px;
+  box-shadow: 0px 0px 5px 2px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-text{
+    font-size: 40px;
+    font-family: serif;
+    position: absolute;
+    top: 2px;
+    left: 70px;
+}
+.card-text1{
+    font-size: 25px;
+    font-family: serif;
+    position: absolute;
+    top: 2px;
+    left: 40px;
+}
+.card:hover{
+    height: 300px;
+    box-shadow: 0px 0px 5px 2px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.end{
+    display: block;
+   
+    text-align: center;
+    position: fixed;
+    bottom: 10px;
+    left: 1px;
+    padding: 5px;
+}
+
+.logo{
+    height: 70px;
+    margin-right: 10px;
+    margin-left: 0px;
 }
