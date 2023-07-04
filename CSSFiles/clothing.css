@@ -1,332 +1,375 @@
 *{
-       margin: 0;
-       padding: 0;
-       box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 body{
-    font-family: 'Poppins', sans-serif;
+ font-family: 'Poppins', sans-serif;
 }
-    .maincontainer {
-      height: auto;
+ .maincontainer {
+   height: auto;
+ }
+ .btn1{
+     background-color: black;
+     border-radius: 100%;
+     height: 150px;
+     width: 150px;
+     margin:10px 30px;
+     color: white;
+ }
+ .btn1 b{
+     font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ .btn1:hover{
+  box-shadow: 3px 3px 3px 3px black;
+ }
+ .row-1{
+ display: flex;
+ align-items: center;
+ flex-wrap: wrap;
+ justify-content: space-around;
+ }
+ .col-1{
+ flex-basis: 50%;
+ min-width: 300px;
+ margin-left: 20px;
+ }
+ .col-2 img{
+     height: 400px;
+     padding: 50px;
+ }
+ .col-1 h1{
+     font-size: 50px;
+     line-height: 60px;
+     margin: 25px 0;
+ }
+ .btn{
+    display: inline-block;
+    background-color: rgb(78, 35, 97);
+    color: white;
+    padding: 8px 30px;
+    margin:30px 0;
+    border-radius: 30px;
+    text-decoration: none;
     }
-    .btn1{
-        background-color: black;
-        border-radius: 100%;
-        height: 150px;
-        width: 150px;
-        margin:10px 30px;
-        color: white;
-    }
-    .btn1 b{
-        font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-    .btn1:hover{
-     box-shadow: 3px 3px 3px 3px black;
-    }
-    .row-1{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    }
-    .col-1{
-    flex-basis: 50%;
-    min-width: 300px;
-    margin-left: 20px;
-    }
-    .col-2 img{
-        height: 400px;
-        padding: 50px;
-    }
-    .col-1 h1{
-        font-size: 50px;
-        line-height: 60px;
-        margin: 25px 0;
-    }
-    .btn{
-       display: inline-block;
-       background-color: rgb(78, 35, 97);
-       color: white;
-       padding: 8px 30px;
-       margin:30px 0;
-       border-radius: 30px;
-       text-decoration: none;
-       }
-   .btn:hover{
-       background-color: black;
-       border-radius: 30px;
-       transition: 1s;
-   }
-   .container{
-       background: linear-gradient(rgb(208, 129, 183),#709ad1);
-       width:100%;
-   }
-   
-   .categories{
-    margin: 70px 0;
+.btn:hover{
+    background-color: black;
+    border-radius: 30px;
+    transition: 1s;
+}
+.container{
+    background: linear-gradient(rgb(208, 129, 183),#709ad1);
+    width:100%;
+}
+
+.categories{
+ margin: 70px 0;
 
 }
 .row-2{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    
+ display: flex;
+ align-items: center;
+ flex-wrap: wrap;
+ justify-content: space-around;
+ 
 }
 .row-2col{
-    flex-basis: 50%;
-    min-width: 300px;
-    position: relative;
-    
+ flex-basis: 50%;
+ min-width: 300px;
+ position: relative;
+ 
 }
 .row-2col img{
-    height: 400px;
-    width: 350px;
-   box-shadow: 2px 2px 2px 2px black;
-   margin-left: 50px;
+ height: 400px;
+ width: 350px;
+box-shadow: 2px 2px 2px 2px black;
+margin-left: 50px;
 }
 .row-2col img:hover{
-    border-radius: 30px;
-    transition: 1.5s;
+ border-radius: 30px;
+ transition: 1.5s;
 }
 .shop-btn{
-    background-color: rgb(78, 35, 97);
-    color: white;
-    margin-right: -50px;
-    padding:10px;
-    border-radius:30px ;
-    position: absolute;
-    bottom: -10%;
-    right: 54%;
-    text-decoration: none;
+ background-color: rgb(78, 35, 97);
+ color: white;
+ margin-right: -50px;
+ padding:10px;
+ border-radius:30px ;
+ position: absolute;
+ bottom: -10%;
+ right: 54%;
+ text-decoration: none;
 }
 .shop-btn:hover{
-    background-color: black;
-    transition:1.5s;
+ background-color: black;
+ transition:1.5s;
 }
 .small-container{
-    max-width: 1000px;
-    margin: auto;
-    padding-left: 25px;
-    padding-right: 25px;
+ max-width: 1000px;
+ margin: auto;
+ padding-left: 25px;
+ padding-right: 25px;
 }
 .row-2col h3{
-    margin:20px;
-    margin-left: 150px;
+ margin:20px;
+ margin-left: 150px;
 }
 
 .Title{
-    text-align: center;
-    margin: 0 auto 20px;
-    position: relative;
-    line-height: 60px;
+ text-align: center;
+ margin: 0 auto 20px;
+ position: relative;
+ line-height: 60px;
 }
 
 .Title::after{
-    content: '';
-    background-color: #ff523b;
-    width: 80px;
-    height: 5px;
-    border-radius: 5px;
-    position: absolute;
-    bottom: 0;
-    left:50%;
-    transform: translateX(-50%);
+ content: '';
+ background-color: #ff523b;
+ width: 80px;
+ height: 5px;
+ border-radius: 5px;
+ position: absolute;
+ bottom: 0;
+ left:50%;
+ transform: translateX(-50%);
 }
 
 .Title-2{
-        text-align: center;
-        margin: 0 auto 20px;
-        position: relative;
-        line-height: 60px;
+     text-align: center;
+     margin: 0 auto 20px;
+     position: relative;
+     line-height: 60px;
 
 }
 .Title-2::after{
-    content: '';
-    background-color: #ff523b;
-    width: 80px;
-    height: 5px;
-    border-radius: 5px;
-    position: absolute;
-    bottom: 0;
-    left:50%;
-    transform: translateX(-50%);
+ content: '';
+ background-color: #ff523b;
+ width: 80px;
+ height: 5px;
+ border-radius: 5px;
+ position: absolute;
+ bottom: 0;
+ left:50%;
+ transform: translateX(-50%);
 }
 .row-3{
 height: 400px;
 width: 1080px;
 }
 .row-3col img{
-    width: 100%;
-    height: 400px;
-    margin: 30px;
+ width: 1300px;
+ height: 400px;
+ margin: 30px;
 }
 .Wrow1{
-    display: flex;
-    
+ display: flex;
+ 
 }
 .Wrow1col img{
-    height:300px;
-    width:220px;
-    margin: 20px;
-    border-radius: 20px;
+ height:300px;
+ width:220px;
+ margin: 20px;
+ border-radius: 20px;
 }
 .subheading1{
-    margin-top: 15px;
-    margin-left: 20px;
+ margin-top: 15px;
+ margin-left: 20px;
 }
 .first-container{
-    background-color:rgb(175, 175, 205);
-    width: 100%;
-    position: relative;
+ background-color:rgb(175, 175, 205);
+ width: 100%;
+ position: relative;
 }
 .offer{
-    background-color: rgb(78, 35, 97);
-    color: white;
-    position: absolute;
-    border: none;
-    width: 220px;
-    height: 50px;
-    bottom: 24px;
-    left: 20px;
-    border-radius: 0px 0px 20px 20px;
-   
+ background-color: rgb(78, 35, 97);
+ color: white;
+ position: absolute;
+ border: none;
+ width: 220px;
+ height: 50px;
+ bottom: 24px;
+ left: 20px;
+ border-radius: 0px 0px 20px 20px;
+
 }
 
 .offer2{
-    background-color: rgb(78, 35, 97);
-    color: white;
-    position: absolute;
-    border: none;
-    width: 220px;
-    height: 50px;
-    bottom: 24px;
-    right: 796px;
-    border-radius: 0px 0px 20px 20px;
+ background-color: rgb(78, 35, 97);
+ color: white;
+ position: absolute;
+ border: none;
+ width: 220px;
+ height: 50px;
+ bottom: 24px;
+ right: 796px;
+ border-radius: 0px 0px 20px 20px;
 
 }
 .offer3{
-    background-color: rgb(78, 35, 97);
-    color: white;
-    position: absolute;
-    border: none;
-    width: 220px;
-    height: 50px;
-    bottom: 24px;
-    right: 536px;
-    border-radius: 0px 0px 20px 20px;
-   
+ background-color: rgb(78, 35, 97);
+ color: white;
+ position: absolute;
+ border: none;
+ width: 220px;
+ height: 50px;
+ bottom: 24px;
+ right: 536px;
+ border-radius: 0px 0px 20px 20px;
+
 }
 
 .offer4{
-    background-color: rgb(78, 35, 97);
-    color: white;
-    position: absolute;
-    border: none;
-    width: 220px;
-    height: 50px;
-    bottom: 24px;
-    right: 276px;
-    border-radius: 0px 0px 20px 20px;
+ background-color: rgb(78, 35, 97);
+ color: white;
+ position: absolute;
+ border: none;
+ width: 220px;
+ height: 50px;
+ bottom: 24px;
+ right: 276px;
+ border-radius: 0px 0px 20px 20px;
 
 }
 .offer5{
-    background-color: rgb(78, 35, 97);
-    color: white;
-    position: absolute;
-    border: none;
-    width: 220px;
-    height: 50px;
-    bottom: 24px;
-    right: 16px;
-    border-radius: 0px 0px 20px 20px;
- 
+ background-color: rgb(78, 35, 97);
+ color: white;
+ position: absolute;
+ border: none;
+ width: 220px;
+ height: 50px;
+ bottom: 24px;
+ right: 16px;
+ border-radius: 0px 0px 20px 20px;
+
 }
 .Wrow2{
-    display: flex;
+ display: flex;
 }
 .Wrow2col img{
-    height:300px;
-    width:220px;
-    margin: 20px;
-    border-radius: 20px;
+ height:300px;
+ width:220px;
+ margin: 20px;
+ border-radius: 20px;
 }
 .subheading2{
-    margin-top: 15px;
-    margin-left: 20px;
+ margin-top: 15px;
+ margin-left: 20px;
 }
 .Second-container{
-    margin-top: 40px;
-    background-color:rgb(240, 184, 224);
-    width: 100%;
-    position: relative;
+ margin-top: 40px;
+ background-color:rgb(240, 184, 224);
+ width: 100%;
+ position: relative;
 
-    .ocassional{
-        background-color: rgb(78, 35, 97);
-        color: white;
-        position: absolute;
-        border: none;
-        width: 220px;
-        height: 50px;
-        bottom: 24px;
-        left: 20px;
-        border-radius: 0px 0px 20px 20px;
-       
-    }
+ .ocassional{
+     background-color: rgb(78, 35, 97);
+     color: white;
+     position: absolute;
+     border: none;
+     width: 220px;
+     height: 50px;
+     bottom: 24px;
+     left: 20px;
+     border-radius: 0px 0px 20px 20px;
     
-    .ocassional2{
-        background-color: rgb(78, 35, 97);
-        color: white;
-        position: absolute;
-        border: none;
-        width: 220px;
-        height: 50px;
-        bottom: 24px;
-        right: 796px;
-        border-radius: 0px 0px 20px 20px;
-       
-    }
-    .ocassional3{
-        background-color: rgb(78, 35, 97);
-        color: white;
-        position: absolute;
-        border: none;
-        width: 220px;
-        height: 50px;
-        bottom: 24px;
-        right: 536px;
-        border-radius: 0px 0px 20px 20px;
-       
-    }
+ }
+ 
+ .ocassional2{
+     background-color: rgb(78, 35, 97);
+     color: white;
+     position: absolute;
+     border: none;
+     width: 220px;
+     height: 50px;
+     bottom: 24px;
+     right: 796px;
+     border-radius: 0px 0px 20px 20px;
     
-    .ocassional4{
-        background-color: rgb(78, 35, 97);
-        color: white;
-        position: absolute;
-        border: none;
-        width: 220px;
-        height: 50px;
-        bottom: 24px;
-        right: 276px;
-        border-radius: 0px 0px 20px 20px;
-       
-    }
-    .ocassional5{
-        background-color: rgb(78, 35, 97);
-        color: white;
-        position: absolute;
-        border: none;
-        width: 220px;
-        height: 50px;
-        bottom: 24px;
-        right: 16px;
-        border-radius: 0px 0px 20px 20px;
-        
-    }
+ }
+ .ocassional3{
+     background-color: rgb(78, 35, 97);
+     color: white;
+     position: absolute;
+     border: none;
+     width: 220px;
+     height: 50px;
+     bottom: 24px;
+     right: 536px;
+     border-radius: 0px 0px 20px 20px;
+    
+ }
+ 
+ .ocassional4{
+     background-color: rgb(78, 35, 97);
+     color: white;
+     position: absolute;
+     border: none;
+     width: 220px;
+     height: 50px;
+     bottom: 24px;
+     right: 276px;
+     border-radius: 0px 0px 20px 20px;
+    
+ }
+ .ocassional5{
+     background-color: rgb(78, 35, 97);
+     color: white;
+     position: absolute;
+     border: none;
+     width: 220px;
+     height: 50px;
+     bottom: 24px;
+     right: 16px;
+     border-radius: 0px 0px 20px 20px;
+     
+ }
 }
 
 .Wrow3 img{
-    width: 100%;
-    height: 400px;
-    margin-top: 40px;
+ width: 100%;
+ height: 400px;
+ margin-top: 40px;
+}
+@media(max-width:375px){
+    .container{
+        width: 370px;
+        height: auto;
+    }
+    .col-1 h1{
+        font-size: 30px;
+        line-height: 60px;
+        margin: 25px 0;
+    }
+    .col-2 img{
+        height: 150px;
+        padding: 10px;
+        margin-bottom: 0px;
+    }
+    .row-2col img{
+        height: 200px;
+        width: 250px;
+       box-shadow: 2px 2px 2px 2px black;
+       margin-left: 20px;
+       }
+    .shop-btn{
+        background-color: rgb(78, 35, 97);
+        color: white;
+        margin-right: -50px;
+        padding:10px;
+        border-radius:30px ;
+        position: absolute;
+        bottom: -20%;
+        right: 54%;
+        text-decoration: none;
+       }
+       .row-2col h3{
+        margin-top:80px;
+        margin-left: 70px;
+        margin-bottom: 5px;
+       }
+       .row-3col img{
+        width: 350px;
+        height: 200px;
+        margin: 10px;
+       }
 }
