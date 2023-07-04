@@ -1,3 +1,76 @@
 *{
     margin: 0px;
 }
+.banner{
+    background-image: url("../Media/Copy-of-Unnamed-Design-1.png");
+    min-height:80vh ;
+    width: 100%;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+.heading{
+    position: relative;
+    top: 8rem;
+    left: 12rem;
+    display: inline-block;
+}
+
+
+.heading button{
+    margin-top: 5%;
+    padding: 1.1rem;
+    border-radius: 50px;
+    border: none;
+    font-size: 1.7rem;
+    color: white;
+}
+#pink{
+    background-color: #fa90d8;
+}
+#purple{
+    background-color: #7046b7;
+}
+
+.blazer{
+    display: inline-block;
+    position: absolute;
+    right: 8rem;
+  
+}
+.blazer img{
+    height: 33rem;
+}
+
+
+@media(min-width:768px){
+    .banner h1{
+        font-size:45px;
+        font-weight: bolder;
+    }
+}
+
+@media(max-width:576px){
+    .heading{
+        position: absolute;
+        top: 15px;
+        left: 30px;
+        margin-top: 12px;
+    }
+    .heading button{
+        font-size: 0.8rem;
+        border-radius: 1rem;
+        padding: 2%;
+        border: none;
+        color: white;
+    
+    }
+
+    .banner h2{
+        font-size:120%;
+        font-weight: 900;
+        margin-top: 0.7rem;
+        margin-bottom: 0.7rem;
+    }
+}
