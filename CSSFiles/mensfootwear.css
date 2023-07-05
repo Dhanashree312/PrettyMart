@@ -107,6 +107,7 @@ color: rgb(87, 88, 88);
     margin-top: 50px;
     border: 1px solid rgb(152, 148, 148); 
     margin-left: 60px;
+    margin-bottom: 50px;
 }
 
 .image-consonantiam{
@@ -178,7 +179,7 @@ body{
         background-color:rgb(248, 131, 15);
         color: rgb(255, 249, 249);
         margin-left: 720px;
-        margin-top: 350px;
+        margin-top: 550px;
         margin-bottom: 380px;
         padding: 3px;
         padding-left: 10px;
@@ -214,4 +215,18 @@ body{
     .gim{
         background-color:#ffccb3;
     }
+    
+    .-showmore {
+        text-decoration: none;
+        background-color:rgb(70, 131, 23);
+        color: rgb(255, 249, 249);
+        margin-left: 650px;
+        margin-top: 300px;
+        margin-bottom: 400px;
+        padding: 3px;
+        padding-left: 80px;
+        padding-right: 80px;
+        border-radius: 5px; 
+        border: solid 1px;
+      }
     
