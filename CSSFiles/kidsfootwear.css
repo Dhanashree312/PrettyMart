@@ -229,4 +229,73 @@ body{
         border-radius: 5px; 
         border: solid 1px;
       }
-    
+      @media screen and (min-width:768px) and (max-width:992px) {
+      
+        .flexbox{
+          display: flex;
+          flex-direction: column;
+        }
+        .btn-showmore {
+          margin-left: 330px;
+        }
+        .gym-container{
+          height: 530px;
+      width: 320px;
+      margin-left: 300px;
+     
+        }
+        .main{
+          height: 350px;
+      width: 855px;
+      background-size: 991px;
+      padding-left: 125px;
+      font-size: 50px;
+        }
+      .main-text{
+          font-size: 30px;
+          margin-left: 100px; 
+      }
+      .main-text1{
+      margin-left: 0px;
+      }
+      .big-pic{
+        width: 100px;
+        margin-top: 300px;
+      }
+    }
+  
+  
+  /*mobile*/
+  
+      @media screen and (min-width:500px) and (max-width:767px) {
+            .flexbox{
+              display: flex;
+              flex-direction: column;
+              
+            }
+      
+            .btn-showmore {
+              margin-left: 260px;
+            }
+            .gym-container{
+              height: 530px;
+          width: 320px;
+          margin-left: 220px;
+         
+            }
+            .main{
+              height: 350px;
+          width: 696px;
+          background-size: 800px;
+          padding-left: 60px;
+          font-size: 40px;
+            }
+          .main-text{
+              font-size: 23px;
+              margin-left: 100px; 
+          }
+          .main-text1{
+          margin-left: 0px;
+          font-size: 16px;
+          }
+          }  
