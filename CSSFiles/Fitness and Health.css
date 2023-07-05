@@ -16,6 +16,22 @@
     background-repeat: no-repeat;
     background-color: rgb(11, 9, 9);
  }
+ .h1{
+    background-color: #fb7e09;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 100px;
+    width: 1525px;
+    
+ }
+ .video1{
+    margin-left:300px;
+ }
+ .video-tag{
+    height: 540px;
+    width: 1525px;
+    background-color: rgb(19, 19, 19);
+ }
 
 .main{
     height: 450px;
@@ -167,6 +183,22 @@ body{
     .main-text1{
     margin-left: 0px;
     }
+    .h1{
+       width: 982px;
+       height:80px ; 
+    }
+    .video-tag{
+        width: 982px;
+        height: 400px;
+    }
+    .video1{
+        margin-left: 140px;
+        height: 400px;
+    }
+    #main-1{
+        background-size: 500px;
+
+    }
     }
 
 
@@ -201,6 +233,23 @@ body{
         }
         .main-text1{
         margin-left: 0px;
-        font-size: 16px;
+        font-size: 10px;
+        }
+        .h1{
+            width: 758px;
+            height:80px ; 
+         }
+         .video-tag{
+             width: 758px;
+             height: 400px;
+         }
+         .video1{
+             margin-left: 20px;
+             height: 400px;
+         }
+         #main-1{
+            background-size: 400px;
+            width: 632px;
+    
         }
         }  
