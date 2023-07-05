@@ -19,11 +19,6 @@
     color: white;
     text-align : center; 
 }
-body{
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-}
 .img:hover
 {
     height: 103px;
@@ -115,12 +110,39 @@ border: solid 1px #d9d9d9;
     top: 2px;
     left: 70px;
 }
+.phone-card1{
+    width: 490px;
+    height: 300px;
+    border: solid 1px #d9d9d9;
+   border-radius: 5px;
+}
+.phone-card1:hover{
+    height: 340px;
+    width: 530px;
+    box-shadow: 0px 0px 5px 2px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.phone-card{
+    font-size: 30px;
+    font-family: serif;
+    position: absolute;
+    left: 6px;
+    bottom: 1px;
+}
 .card-text1{
     font-size: 25px;
     font-family: serif;
     position: absolute;
     top: 2px;
     left: 40px;
+}
+.phone-text1{
+    font-size: 28px;
+    font-family: serif;
+    position: absolute;
+    top: 0px;
+    left: 15px;   
 }
 .card:hover{
     height: 300px;
@@ -142,4 +164,77 @@ border: solid 1px #d9d9d9;
     height: 70px;
     margin-right: 10px;
     margin-left: 0px;
+}
+.phone{
+    position: relative;
+    margin-top: 20px;
+}
+.phonex{
+ background-color:;
+ height: 800px;
+ border-radius: 10px;
+ box-shadow: 0px 0px 5px 3px;
+ margin-left: 150px;
+}
+.phonex-text{
+    position: absolute;
+    top: 40px;
+    left: 380px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: firebrick;
+}
+.phone-parent{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.phone-child{
+   border: solid 3px black;
+   border-radius: 10px;
+   width: 300px;
+   position: relative;
+}
+.phone-img{
+    margin-top: 20px;
+    height: 350px;
+}
+.phone-img1{
+    margin-top: 20px;
+    height: 350px;
+    width: 260px;
+}
+.phone-text{
+    text-align: center;
+}
+.btn{
+    height: 50px;
+    width: 150px;    
+}
+.btn:hover{
+    background-color: darkgray;
+    border: 0.3px;
+}
+.share{
+    position: absolute;
+    right: 10px;
+    top: 35px;
+    height: 25px;
+}
+.like{
+    position: absolute;
+    right: 10px;
+    top: 80px;
+    height: 25px;
+}
+.lapt-img{
+    margin-top: 30px;
+    height: 350px;
+    width: 420px;
+}
+.lapt-child{
+    border: solid 3px black;
+    border-radius: 10px;
+    width: 420px;
+    position: relative;
 }
