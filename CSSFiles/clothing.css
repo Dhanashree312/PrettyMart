@@ -6,28 +6,11 @@
 body{
  font-family: 'Poppins', sans-serif;
 }
- .maincontainer {
-   height: auto;
-  
- }
- .btn1{
-     background-color: black;
-     border-radius: 100%;
-     height: 160px;
-     width: 160px;
-     margin:10px 20px;
-     color: white;
- }
- .btn1 b{
-     font-family: Georgia, 'Times New Roman', Times, serif;
- }
- .btn1:hover{
-  box-shadow: 3px 3px 3px 3px black;
- }
+ 
  .row-1{
  display: flex;
  align-items: center;
- flex-wrap: wrap;
+ flex-wrap: nowrap;
  justify-content: space-around;
  background: linear-gradient(rgb(208, 129, 183),#709ad1);
  width:100%;
@@ -138,7 +121,7 @@ h2{
     width: 100%;
 }
 .row-3col{
-width: 95%;
+width: 100%;
 height: 560px;
 margin: auto;
 display: flex;
@@ -146,193 +129,156 @@ justify-content: space-around;
 flex-wrap: wrap;
 margin: 20px;
 }
+
+.maincontainer {
+    height: auto;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+   }
+  .btn1{
+      background-color: black;
+      border-radius: 100%;
+      height: 190px;
+      margin: auto;
+      margin-top: 10px;
+      width: 13%;
+      padding: 0%;
+      color: white;
+  }
+  .btn1 b{
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .btn1:hover{
+   box-shadow: 3px 3px 3px 3px black;
+  }
 .Wrow1{
  display: flex;
- 
-}
-.Wrow1col img{
- height:300px;
- width:220px;
- margin-left: 69px;
- border-radius: 20px;
- margin-top: 20px;
- margin-bottom: 20px;
-}
-.subheading1{
- margin-top: 20px;
- padding: 10px;
- margin-left: 20px;
-}
-.first-container{
- background-color:rgb(175, 175, 205);
  width: 100%;
  position: relative;
+ flex-wrap: wrap;
+ height:auto;
+ margin: auto;
 }
-.offer{
- background-color: rgb(78, 35, 97);
- color: white;
- position: absolute;
- border: none;
- width: 220px;
- height: 50px;
- bottom: 24px;
- left: 69px;
- border-radius: 0px 0px 20px 20px;
-
+.Wrow1col{
+    width: 18%;
+    height: 300px;
+    margin: 15px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#Wimg1{
+    background-image: url("./../Images/lehenga.webp");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+#Wimg2{
+    background-image: url("./../Images/kurti.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+#Wimg3{
+    background-image: url("./../Images/tops.webp");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+#Wimg4{
+    background-image: url("./../Images/womenjeans.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+#Wimg5{
+    background-image: url("./../Images/saree.webp");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.Wrow1 button{
+    background-color: rgb(78, 35, 97);
+    color: white;
+    position: absolute;
+    border: none;
+    width: 18%;
+    height: 50px;
+    bottom:1%;
+    border-radius: 0px 0px 20px 20px;
 }
 
-.offer2{
- background-color: rgb(78, 35, 97);
- color: white;
- position: absolute;
- border: none;
- width: 220px;
- height: 50px;
- bottom: 24px;
- right: 940px;
- border-radius: 0px 0px 20px 20px;
-
-}
-.offer3{
- background-color: rgb(78, 35, 97);
- color: white;
- position: absolute;
- border: none;
- width: 220px;
- height: 50px;
- bottom: 24px;
- right: 652px;
- border-radius: 0px 0px 20px 20px;
-
-}
-
-.offer4{
- background-color: rgb(78, 35, 97);
- color: white;
- position: absolute;
- border: none;
- width: 220px;
- height: 50px;
- bottom: 24px;
- right: 364px;
- border-radius: 0px 0px 20px 20px;
-
-}
-.offer5{
- background-color: rgb(78, 35, 97);
- color: white;
- position: absolute;
- border: none;
- width: 220px;
- height: 50px;
- bottom: 24px;
- right: 75px;
- border-radius: 0px 0px 20px 20px;
-
-}
 .Wrow2{
- display: flex;
-}
-.Wrow2col img{
- height:300px;
- width:220px;
- margin-left: 69px;
- margin-top: 20px;
- margin-bottom: 20px;
- border-radius: 20px;
-}
-.subheading2{
- margin-top: 20px;
- margin-left: 20px;
- padding: 10px;
-}
-.Second-container{
- margin-top: 40px;
- background-color:rgb(240, 184, 224);
- width: 100%;
- position: relative;
-
- .ocassional{
-     background-color: rgb(78, 35, 97);
-     color: white;
-     position: absolute;
-     border: none;
-     width: 220px;
-     height: 50px;
-     bottom: 24px;
-     left: 68px;
-     border-radius: 0px 0px 20px 20px;
-    
- }
- 
- .ocassional2{
-     background-color: rgb(78, 35, 97);
-     color: white;
-     position: absolute;
-     border: none;
-     width: 220px;
-     height: 50px;
-     bottom: 24px;
-     left: 359px;
-     border-radius: 0px 0px 20px 20px;
-    
- }
- .ocassional3{
-     background-color: rgb(78, 35, 97);
-     color: white;
-     position: absolute;
-     border: none;
-     width: 220px;
-     height: 50px;
-     bottom: 24px;
-     right: 652px;
-     border-radius: 0px 0px 20px 20px;
-    
- }
- 
- .ocassional4{
-     background-color: rgb(78, 35, 97);
-     color: white;
-     position: absolute;
-     border: none;
-     width: 220px;
-     height: 50px;
-     bottom: 24px;
-     right: 363px;
-     border-radius: 0px 0px 20px 20px;
-    
- }
- .ocassional5{
-     background-color: rgb(78, 35, 97);
-     color: white;
-     position: absolute;
-     border: none;
-     width: 220px;
-     height: 50px;
-     bottom: 24px;
-     right: 74px;
-     border-radius: 0px 0px 20px 20px;
-     
- }
-}
-
-.Wrow3 img{
- width: 100%;
- height: 400px;
- margin-top: 40px;
+    display: flex;
+    width: 100%;
+    position: relative;
+    flex-wrap: wrap;
+    height:auto;
+    margin: auto;
+   }
+   .Wrow2col{
+       width: 18%;
+       height: 300px;
+       margin: 15px;
+       border-radius: 20px;
+       box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   }
+   #W2img1{
+       background-image: url("./../Images/womenwedding.jpg");
+       background-size: 100% auto;
+       background-repeat: no-repeat;
+   }
+   #W2img2{
+       background-image: url("./../Images/womenparty.jpg");
+       background-size: 100% auto;
+       background-repeat: no-repeat;
+   }
+   #W2img3{
+       background-image: url("./../Images/sleep.webp");
+       background-size: 100% auto;
+       background-repeat: no-repeat;
+   }
+   #W2img4{
+       background-image: url("./../Images/womenwork.jpg");
+       background-size: 100% auto;
+       background-repeat: no-repeat;
+   }
+   #W2img5{
+       background-image: url("./../Images/womensports.jpg");
+       background-size: 100% auto;
+       background-repeat: no-repeat;
+   }
+   .Wrow2 button{
+       background-color: rgb(78, 35, 97);
+       color: white;
+       position: absolute;
+       border: none;
+       width: 18%;
+       height: 50px;
+       bottom:1%;
+       border-radius: 0px 0px 20px 20px;
+   }
+.Wrow3{
+    width: 97%;
+    height: 560px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    background-image: url("./../Images/sale\ on\ mens2.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
 }
 @media(max-width:576px) {
     .row-1{
         width: 100%;
+        flex-wrap: wrap;
     }
     .col-1{
         font-size: 20px;
+        margin-left: 10px;
     }
     .col-1 h1{
         font-size: 40px;
     }
     .col-2 img{
-        height: 250px;
+        height: 210px;
         padding: 10px;
     }
         .row-2{
@@ -344,6 +290,10 @@ margin: 20px;
         }
         .row-2col h3{
             top: -23%;
+            text-align: center;
+        }
+        .row-2col a{
+            margin: auto;
         }
         .row-3{
             width: 100%;
@@ -353,4 +303,21 @@ margin: 20px;
             height: 150px;
             margin-bottom: 20px;
         }
+
+        .maincontainer {
+            height: auto;
+            width:100%;
+            display: flex;
+            flex-wrap: wrap;
+           }
+          .btn1{
+              background-color: black;
+              border-radius: 100%;
+              height: 180px;
+              margin: auto;
+              margin-top: 10px;
+              width: 13%;
+              padding: 0%;
+              color: white;
+          }
 }
