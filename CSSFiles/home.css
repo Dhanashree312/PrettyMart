@@ -45,6 +45,15 @@ a{
     position: relative;
     bottom:-100%;
 }
+#sales-foot{
+    background-color:  rgba(0, 0, 0, 0.3);
+    padding: 15px;
+  text-align: center;
+    position: relative;
+    bottom:-100%;
+    opacity:0;
+    color: whitesmoke;
+}
 .rs{
     background-color: rgba(0, 0, 0, 0.7); 
     color: white;
@@ -55,6 +64,12 @@ a{
     transition: all 0.3s ease-in;
     
 
+}
+.sales-cat:hover #sales-foot{
+    opacity: 1;
+}
+.sales-cat:hover .sales-foot{
+    display: none;
 }
 
 
