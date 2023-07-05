@@ -24,6 +24,7 @@
     width: 1525px;
     
  }
+ 
  .video1{
     margin-left:300px;
  }
@@ -252,4 +253,11 @@ body{
             width: 632px;
     
         }
-        }  
+        } 
+        
+        @media screen and (min-width:993px) {
+            #vid{
+                height: 530px;
+            }
+        }
+        
