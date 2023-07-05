@@ -229,11 +229,11 @@ body{
         border-radius: 5px; 
         border: solid 1px;
       }
-      @media screen and (min-width:768px) and (max-width:992px) {
+      @media screen and (min-width:768px) and (max-width:1400px) {
       
         .flexbox{
-          display: flex;
-          flex-direction: column;
+          display:inline-block;
+          flex-direction: row;
         }
         .btn-showmore {
           margin-left: 330px;
@@ -241,7 +241,8 @@ body{
         .gym-container{
           height: 530px;
       width: 320px;
-      margin-left: 300px;
+      margin-left: 100px;
+      display: inline-block;
      
         }
         .main{
@@ -259,15 +260,27 @@ body{
       margin-left: 0px;
       }
       .big-pic{
-        width: 100px;
-        margin-top: 300px;
+        width: 800px;
+        margin-top: 70px;
       }
-    }
+      .maine{
+        margin-left: 50px;
+      }
+      .-showmore{
+        
+            text-decoration: none;
+            background-color:rgb(208, 108, 27);
+            color: rgb(255, 249, 249);
+            margin-left: 330px;
+    
+          }
+      }
+    
   
   
   /*mobile*/
   
-      @media screen and (min-width:500px) and (max-width:767px) {
+      @media screen and (min-width:300px) and (max-width:767px) {
             .flexbox{
               display: flex;
               flex-direction: column;
@@ -280,7 +293,7 @@ body{
             .gym-container{
               height: 530px;
           width: 320px;
-          margin-left: 220px;
+          margin-left: 120px;
          
             }
             .main{
@@ -297,5 +310,23 @@ body{
           .main-text1{
           margin-left: 0px;
           font-size: 16px;
+          }
+          .-showmore{
+        
+            text-decoration: none;
+            background-color:rgb(45, 208, 27);
+            color: rgb(255, 249, 249);
+            margin-left: 230px;
+    
+          }
+          .big-pic{
+            width: 500px;
+            margin-top: 70px;
+          }
+          .maine{
+            margin-left: 60px;
+          }
+          .new-name{
+            margin-left: 45px;
           }
           }  
