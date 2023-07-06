@@ -1,3 +1,13 @@
+.hel{
+    color: #e04e0f;
+}
+.but-1{
+    background-color: #e04e0f;
+    border: #e04e0f;
+    color: white;
+    padding: 7px 20px 7px 20px;
+    margin-left: 300px;
+}
 
  #main-1{
     padding-left: 125px;
@@ -17,10 +27,10 @@
     background-color: rgb(11, 9, 9);
  }
  .h1{
-    background-color: #fb7e09;
+    background-color:#e04e0f;
     margin-top: 0px;
     margin-bottom: 0px;
-    height: 100px;
+    height: 50px;
     width: 1525px;
     
  }
@@ -112,7 +122,7 @@ body{
         padding-top: 5px;
         padding-bottom: 5px;
         margin-left: 2px;
-        border: solid 1px rgb(227, 150, 55);
+        border: solid 1px #e04e0f);
         border-radius: 5px;
     }
     .btn-1:hover{
@@ -123,16 +133,16 @@ body{
     .btn{
         margin-left: 20px;
         background-color: rgb(255, 251, 251);
-        color: #fb7e09;
+        color: #e04e0f;
     }
     .btn-a{
-        background-color: rgb(225, 138, 30);
+        background-color:#e04e0f;
         color: white;
     }
     
     .btn-showmore {
         text-decoration: none;
-        background-color:rgb(248, 131, 15);
+        background-color:#e04e0f;
         color: rgb(255, 249, 249);
         margin-left: 650px;
         margin-top: 300px;
@@ -200,6 +210,10 @@ body{
         background-size: 500px;
 
     }
+    .but-1{
+        margin-left: 100px;
+        padding: 5px 20px 5px 20px;
+    }
     }
 
 
@@ -253,11 +267,13 @@ body{
             width: 632px;
     
         }
+        .but-1{
+            margin-left: 100px;
+            padding: 3px 10px 3px 10px;
         } 
         
         @media screen and (min-width:993px) {
-            #vid{
-                height: 530px;
+            #vid1{
+                height: 500px;
             }
         }
-        
