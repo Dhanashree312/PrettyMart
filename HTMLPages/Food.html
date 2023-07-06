@@ -35,14 +35,6 @@
         top:60%;
 
     }
-    .menu-container{
-        width: 90%;
-        margin: auto;
-        display: flex;
-        justify-content: space-between;
-       
-    }
-
     .h5 {
         font-size: 24px;
         text-transform: capitalize;
@@ -87,14 +79,14 @@
     .menu {
 
         position: relative;
-        margin-bottom: 70px;
+        margin-bottom: 50px;
         margin-top: 200px;
     }
 
     .menu-p {
         color: #555555;
-        font-size: 16px;
-        margin-bottom: 7px;
+        font-size: 18px;
+        margin-bottom:-20px;
     }
 
     .menu-h2 {
@@ -104,15 +96,41 @@
         font-weight: 700;
         position: relative;
     }
+    .menu-container
+    {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+       
+    }
 
     .menu-item {
 
         margin: 10px;
+        padding: 30px;
         width: 30%;
         display: inline-block;
+        border: solid 2px rgb(186, 182, 182);
+        border-radius: 30px 30px 180px 30px;
 
     }
-
+    .container
+     {
+        display: flex;
+        align-items: center;
+        margin-top: 60px;
+        margin-left: 60px;
+    }
+    .col-2
+    {
+        height: 500px;
+        width: 500px;
+    }
+    .col-3
+    {
+        margin-left: 80px;
+    }
     .col-3 h5 {
         font-family: "Lora", serif;
         font-size: 16px;
@@ -141,11 +159,6 @@
         margin-bottom: 0px;
         color: #555555;
 
-    }
-
-    .container {
-        display: flex;
-        align-items: center;
     }
 
     .section-title {}
@@ -192,12 +205,22 @@
 
     .container-menu {
         display: flex;
+        margin-top: 170px;
     }
 
-    .menu-item-1 {
-        display: inline-block;
+    .menu-item-1
+    {   display: inline-block;
+        width: 90%;
+        margin-top: 70px;
+        
+        display: flex;
+        flex-wrap: wrap;
     }
-
+    .menu-type{
+        width: 40%;
+        display: flex;
+        margin: auto;
+    }
     .img-1 {
         height: 100px;
         width: 100px;
@@ -224,16 +247,7 @@
         height: 300px;
     }
 
-    .menu-item-1{
-        width: 90%;
-        margin: auto;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .menu-type{
-        width: 40%;
-        display: flex;
-    }
+   
 </style>
 
 <body>
@@ -279,11 +293,12 @@
         <div class="col-2"><img src="C:\Users\admin\Desktop\PrettyMart\Images\about.png.webp" alt="about"></div>
         <div class="col-3">
             <h5 class="col-3 h5">Our History</h5>
-            <h2 class="col-3 h2">Where The Food’s As Good As The Root Beer.</h2>
+            <h2 class="col-3 h2">Where The Food’s As <br/>
+                 Good As The Root Beer.</h2>
             <h4 class="col-3 h4">Satisfying people hunger for simple pleasures</h4>
-            <p class="col-3 p">If you love Maharashtrian food, then head over to PrettyMart.Diners will get to savour
-                Roasted Sweet Potato with Ambi Dal, Mass Wadi with Mango Coconut Curry, and Stuffed Tiger Prawns among
-                other dishes, along with a delicious Kharwas for dessert. </p>
+            <p class="col-3 p">If you love Maharashtrian food, then head over to PrettyMart.Diners will <br/> get to savour
+                Roasted Sweet Potato with Ambi Dal, Mass Wadi with Mango <br/> Coconut Curry, and Stuffed Tiger Prawns among
+                other dishes, along with a <br/>delicious Kharwas for dessert. </p>
         </div>
     </div>
     <div class="container-menu">
