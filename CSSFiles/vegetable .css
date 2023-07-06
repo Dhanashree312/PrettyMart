@@ -1,0 +1,123 @@
+.cardcontainer{
+          width: 80% ;
+          margin:auto;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          position: relative;
+
+}
+.card{
+    width:30%;
+    height: 430px;
+    border: 2px solid wheat;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    position: relative;
+}
+#card1{
+    background-image: url("../Images/capsicum2.jpg");
+   background-size: contain;
+   background-repeat: no-repeat;
+   position: relative;
+}
+#card2{
+    background-image: url("../Images/brinjal2.jpg");
+   background-size: contain;
+   background-repeat: no-repeat;
+   position: relative;
+}
+#card3{
+    background-image: url("../Images/Carrot.jpg");
+   background-size: contain;
+   background-repeat: no-repeat;
+   position: relative;
+}
+#card4{
+    background-image: url("../Images/onion2.jpg");
+   background-size: contain;
+   background-repeat: no-repeat;
+   position: relative;
+}
+#card5{
+    background-image: url("../Images/potato2.jpg");
+   background-size: contain;
+   background-repeat: no-repeat;
+   position: relative;
+}
+#card6{
+    background-image: url("../Images/pumkin.jpg");
+   background-size: contain;
+   background-repeat: no-repeat;
+   position: relative;
+}
+.offer{
+    background-color: red;
+    color:white;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 2px;
+    position: absolute;
+    top: 5%;
+    left: 3%;
+
+}
+.card h2{
+    text-align: center;
+    position: relative;
+    top: 43%;
+
+}
+.card select:{
+    
+}
+
+.rate{
+    margin-top: 170px;
+    margin-left: 50px;
+    height: 30px;
+    width: 200px;
+    padding-left: 5px;
+    padding-right:5px;
+  }
+  .pg1{
+    margin-left: 120px;
+  
+  }
+  .pg2{
+    margin-left: 30px;
+    margin-top: 0px;
+    margin-right: 10px;
+    text-align: center;
+  
+  }
+  .quntitybtn{
+    margin-left: 30px;
+    height:30px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    background-color: antiquewhite;
+    
+  
+  }
+  .quntitybtn:hover{
+    background-color: #3bb300;
+    transition: 0.5px;
+  }
+  .addbtn{
+    margin-left: 10px;
+    height:30px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #e6e600;
+    border:none;
+  
+  }
+  .addbtn:hover{
+    background-color: #99e600;
+    transition: 0.5px;
+  }
+  
+
+
