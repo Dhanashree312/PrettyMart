@@ -1,236 +1,421 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>  </title>
-    </head>
-    <style>
-        .body
-        {
-            background-color: white;
-            margin: 0;
-        }
-        .banner-text
-        {
-            border: none;
-           height: 500px;
-           width: 600px;
-           background-image: url ('beef-steak-recipe.jpg');
-           background-size: cover;
-          
-        }
-        .h5
-        {
-            font-size: 24px;
-            text-transform: capitalize;
-            color: #ff6426;
-            font-style: italic;
-            font-weight: 400;
-            font-family: "Lora", serif;
-           
-        }
-        .h1
-        {
-            font-size: 53px;
-            font-family: "Cardo", serif;
-            font-weight: 700;
-            margin-top:-30px;
-            margin-bottom: 15px;
-            line-height: 1.273;
-        }
-        .p
-        {
-            font-family: "Lora", serif;
-            line-height: 1.7;
-            font-size: 15px;
-            margin-bottom: 15px;
-            color: #555555
-        }
-        .header-btn
-        {
-            background-color: #f42f2c;
-            border: 1px solid transparent;
-            color: #fff;
-            line-height: 42px;
-            padding-left: 30px;
-            padding-right: 30px;
-            border-radius: 25px;
-            border: none;
-            color: #fff;
-            text-transform: uppercase;
-            font-weight: 500;
-        }
-        .menu {
-          padding: 50px;
-          text-align: center;
-         }
 
-        .menu-item {
-         display: inline-block;
-         margin: 20px;
-         
-         }
+<head>
+    <title> </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<style>
+    .body {
+        background-color: white;
+        margin: 0;
+    }
 
-        .menu-item img {
-         width: 250px;
-         height: 250px;
+    .banner-text {
+        border: none;
+        height: 500px;
+        width: 100%;
+        background-image: url('../Images/dish-with-delicious-crepes.jpg');
+        background-size: cover;
+        background-position: center;
+        position: relative;
 
-        
-}
-.col-3 h5
-{
-    font-family: "Lora", serif;
-    font-size: 16px;
-    color: #555555;
-    margin-bottom: 18px;
-}
-.col-3 h2
-{
-    line-height: 1.25;
-    margin-bottom: 25px;
-    font-size: 40px;
-}
-.col-3 h4
-{
-    margin-bottom: 25px;
-    color: #ff6426;
-    font-size: 24px;
-    font-weight: 300;
-}
-.col-3 p
-{
-    margin-top: 13px;
-    font-family: "Lora", serif;
-    line-height: 1.7;
-    font-size: 15px;
-    margin-bottom: 0px;
-    color: #555555;
-    
-    
-}
-.container
-{
-    display: flex;
-    align-items: center;
-}
-.section-title
-{
-    margin-bottom: none;
-}
-   .section-title p
-   {
-    color: #555555;
-    font-size: 16px;
-    font-family: "Lora", serif;
-   
-   }     
-.section-title h2
-{
-    font-size: 40px;
-    color: #2c3033;
-    line-height: 1.25;
-    font-weight: 700;
-    position: relative;
-    
-}
+    }
 
-header {
+    .image {
+        /* background-image: url('../Images/spices-removebg-preview.png');
+            background-size: cover;  */
+        background-image: url("../Images/spices-removebg-preview.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 30%;
+        height: 350px;
+        position: absolute;
+        right: 30%;
+        top:60%;
 
-  padding: 20px;
-}
+    }
+    .h5 {
+        font-size: 24px;
+        text-transform: capitalize;
+        color: #ff6426;
+        font-style: italic;
+        font-weight: 400;
+        font-family: "Lora", serif;
 
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
+    }
 
-nav ul li {
-  display: inline;
-}
+    .h1 {
+        font-size: 53px;
+        font-family: "Cardo", serif;
+        font-weight: 700;
+        margin-top: -30px;
+        margin-bottom: 15px;
+        line-height: 1.273;
+    }
 
-nav ul li a {
-  color:black;
-  text-decoration: none;
-  padding: 10px;
-}
-.container-menu
-{
-display: flex;
-}
+    .p {
+        font-family: "Lora", serif;
+        line-height: 1.7;
+        font-size: 15px;
+        margin-bottom: 15px;
+        color: #555555
+    }
 
+    .header-btn {
+        background-color: #f42f2c;
+        border: 1px solid transparent;
+        color: #fff;
+        line-height: 42px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 25px;
+        border: none;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
 
-    </style>
-    <body>
-        <div class="banner-text">
-            <h5 class="h5">Expensive But The Best</h5>
-            <h1 class="h1">Deliciousness jumping into the mouth </h1>
-           <p class="p"> We work hard to source premium ingredients and we cook everything from scratch with love.</p>
-                <button class="header-btn">Check our Menu</button>
-        </div>
-        
-        <div class="Menu">
-            <p>Popular Dishes</p>
-            <h2>Our Exclusive Items</h2>
-            <div class="menu-item">
-                <img src="C:\Users\admin\Desktop\PrettyMart\Images\food-item1.webp" alt="food-item1">
-                <h3>Indian Burger</h3>
-                <p>Hungry? Try Our Burgers Made with Half Pound Patties.</p>
-                <button>Order Now</button>  
-                 
-            </div>
-           
-            <div class="menu-item">
-                <img src="C:\Users\admin\Desktop\PrettyMart\Images\food_item_2.png.webp" alt="food-item2">
-                <h3>Cremy Noodles</h3>
-                <p>Easy to prepare, delightful to eat—Cremy Noodles it is!</p>
-                <button>Order Now</button> 
-                    
-            </div>
-            <div class="menu-item">
-                <img src="C:\Users\admin\Desktop\PrettyMart\Images\food_item_3.png.webp" alt="food-item3">
-                <h3>Honey Meat</h3>
-                <p>Roast beef is a dish of beef that is roasted, generally served as the main dish of a meal.</p>
-                <button>Order Now</button>
-            </div>
-            <div class="menu-item">
-                <img src="C:\Users\admin\Desktop\PrettyMart\Images\penne-pasta.jpg" alt="food-item4">
-                <h3>Penne Pasta</h3>
-                <p>Baked pasta is always a good idea.</p>
-                <button>Order Now</button>
-            </div>
-                    
-         </div>
-            <div class="container">
-            <div class="col-2"><img src="C:\Users\admin\Desktop\PrettyMart\Images\about.png.webp" alt="about"></div>
-            <div class="col-3">
-                <h5 class="col-3 h5">Our History</h5>
-                <h2 class="col-3 h2">Where The Food’s As Good As The Root Beer.</h2>
-                <h4 class="col-3 h4">Satisfying people hunger for simple pleasures</h4>
-                <p class="col-3 p">If you love Maharashtrian food, then head over to PrettyMart.Diners will get to savour Roasted Sweet Potato with Ambi Dal, Mass Wadi with Mango Coconut Curry, and Stuffed Tiger Prawns among other dishes, along with a delicious Kharwas for dessert.  </p>
-            </div>
-            </div>
-            <div class="container-menu">
-                <div class="section-title">
-                    <p class="section-title p">Popular Menu</p>
-                    <h2 class="section-title h2">Delicious Food Menu</h2>
-                </div>
-                <header>
-                    <nav>
-                      <ul>
-                        <li><a href="#">Special</a></li>
-                        <li><a href="#">Breakfast</a></li>
-                        <li><a href="#">Lunch</a></li>
-                        <li><a href="#">Dinner</a></li>
-                        <li><a href="#">Sneaks</a></li>
-                      </ul>
-                    </nav>
-                  </header>
+    .menu {
 
-            </div>
+        position: relative;
+        margin-bottom: 50px;
+        margin-top: 200px;
+    }
 
-            
-        
+    .menu-p {
+        color: #555555;
+        font-size: 18px;
+        margin-bottom:-20px;
+    }
+
+    .menu-h2 {
+        font-size: 40px;
+        color: #2c3033;
+        line-height: 1.25;
+        font-weight: 700;
+        position: relative;
+    }
+    .menu-container
+    {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
        
-    
-    </body>
+    }
+
+    .menu-item {
+
+        margin: 10px;
+        padding: 30px;
+        width: 30%;
+        display: inline-block;
+        border: solid 2px rgb(186, 182, 182);
+        border-radius: 30px 30px 180px 30px;
+
+    }
+    .container
+     {
+        display: flex;
+        align-items: center;
+        margin-top: 60px;
+        margin-left: 60px;
+    }
+    .col-2
+    {
+        height: 500px;
+        width: 500px;
+    }
+    .col-3
+    {
+        margin-left: 80px;
+    }
+    .col-3 h5 {
+        font-family: "Lora", serif;
+        font-size: 16px;
+        color: #555555;
+        margin-bottom: 18px;
+    }
+
+    .col-3 h2 {
+        line-height: 1.25;
+        margin-bottom: 25px;
+        font-size: 40px;
+    }
+
+    .col-3 h4 {
+        margin-bottom: 25px;
+        color: #ff6426;
+        font-size: 24px;
+        font-weight: 300;
+    }
+
+    .col-3 p {
+        margin-top: 13px;
+        font-family: "Lora", serif;
+        line-height: 1.7;
+        font-size: 15px;
+        margin-bottom: 0px;
+        color: #555555;
+
+    }
+
+    .section-title {}
+
+    .section-title p {
+        color: #555555;
+        font-size: 16px;
+        font-family: "Lora", serif;
+        margin-bottom: 5px;
+    }
+
+    .section-title h2 {
+        font-size: 40px;
+        color: #2c3033;
+        line-height: 1.25;
+        font-weight: 700;
+        margin-top: 2px;
+        position: relative;
+        font-family: "cardo", serif;
+
+    }
+
+    .header {
+
+        padding: 50px;
+    }
+
+    .nav {
+        list-style-type: none;
+        margin-left: 250px;
+        padding: 0;
+    }
+
+    .nav-li {
+        display: inline;
+    }
+
+    .nav-li-a {
+        color: black;
+        text-decoration: none;
+        padding: 25px;
+        font-size: 20px;
+    }
+
+    .container-menu {
+        display: flex;
+        margin-top: 170px;
+    }
+
+    .menu-item-1
+    {   display: inline-block;
+        width: 90%;
+        margin-top: 70px;
+        
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .menu-type{
+        width: 40%;
+        display: flex;
+        margin: auto;
+    }
+    .img-1 {
+        height: 100px;
+        width: 100px;
+    }
+
+    .para {
+        display: inline-block;
+        margin-left: 50px;
+    }
+
+    .team {
+        padding: 50px;
+        text-align: center;
+    }
+
+    .team-item {
+        display: inline-block;
+        margin: 20px;
+
+    }
+
+    .team-item-img {
+        width: 300px;
+        height: 300px;
+    }
+
+   
+</style>
+
+<body>
+    <div class="banner-text">
+        <h5 class="h5">Expensive But The Best</h5>
+        <h1 class="h1">Deliciousness jumping <br>into the mouth </h1>
+        <p class="p"> We work hard to source premium ingredients and we cook everything from scratch with love.</p>
+        <button class="header-btn">Check our Menu</button>
+        <div class="image">
+
+        </div>
+    </div>
+
+    <div class="menu">
+        <p class="menu-p">Popular Dishes</p>
+        <h2 class="menu-h2">Our Exclusive Items</h2>
+    </div>
+    <div class="menu-container">
+    <div class="menu-item">
+        <img src="C:\Users\admin\Desktop\PrettyMart\Images\food-item1.webp" alt="food-item1">
+        <h3>Indian Burger</h3>
+        <p>Hungry? Try Our Burgers Made with Half Pound Patties.</p>
+        <button>Order Now</button>
+
+    </div>
+
+    <div class="menu-item">
+        <img src="C:\Users\admin\Desktop\PrettyMart\Images\food_item_2.png.webp" alt="food-item2">
+        <h3>Cremy Noodles</h3>
+        <p>Easy to prepare, delightful to eat—Cremy Noodles it is!</p>
+        <button>Order Now</button>
+
+    </div>
+    <div class="menu-item">
+        <img src="C:\Users\admin\Desktop\PrettyMart\Images\food_item_3.png.webp" alt="food-item3">
+        <h3>Honey Meat</h3>
+        <p>Roast beef is a dish of beef that is roasted, generally served as the main dish of a meal.</p>
+        <button>Order Now</button>
+    </div>
+    </div>
+
+    <div class="container">
+        <div class="col-2"><img src="C:\Users\admin\Desktop\PrettyMart\Images\about.png.webp" alt="about"></div>
+        <div class="col-3">
+            <h5 class="col-3 h5">Our History</h5>
+            <h2 class="col-3 h2">Where The Food’s As <br/>
+                 Good As The Root Beer.</h2>
+            <h4 class="col-3 h4">Satisfying people hunger for simple pleasures</h4>
+            <p class="col-3 p">If you love Maharashtrian food, then head over to PrettyMart.Diners will <br/> get to savour
+                Roasted Sweet Potato with Ambi Dal, Mass Wadi with Mango <br/> Coconut Curry, and Stuffed Tiger Prawns among
+                other dishes, along with a <br/>delicious Kharwas for dessert. </p>
+        </div>
+    </div>
+    <div class="container-menu">
+        <div class="section-title">
+            <p class="section-title p">Popular Menu</p>
+            <h2 class="section-title h2">Delicious Food Menu</h2>
+        </div>
+        <header class="header">
+            <nav class="nav">
+
+                <li class="nav-li"><a href="http://" class="nav-li-a ">Special</a></li>
+                <li class="nav-li"><a href="" class="nav-li-a">Breakfast</a></li>
+                <li class="nav-li"><a href="" class="nav-li-a">Lunch</a></li>
+                <li class="nav-li"><a href="" class="nav-li-a">Dinner</a></li>
+                <li class="nav-li"><a href="" class="nav-li-a">Sneaks</a></li>
+            </nav>
+        </header>
+    </div>
+    <div class="menu-item-1">
+        <div class="menu-type">
+
+            <img src="C:\Users\admin\Desktop\PrettyMart\Images\pork sandwitch.jpg" class="img-1" alt="Food 1">
+            <div class="para">
+                <h3>Pork Sandwitch</h3>
+                <p>Indulge in our Veg Club Sandwich, a tantalizing blend of flavors and textures.</p>
+                <span>Rs.320</span>
+            </div>
+        </div>
+        <div class="menu-type">
+
+            <img src="C:\Users\admin\Desktop\PrettyMart\Images\mixed-pizza-with-sliced-lemon.jpg" class="img-1"
+                alt="Food 1">
+            <div class="para">
+                <h3>Pizza</h3>
+                <p>A wholesome combination of tossed mushrooms, olives and juicy sweet corn.</p>
+                <span>Rs.200</span>
+            </div>
+        </div>
+        <div class="menu-type">
+
+            <img src="C:\Users\admin\Desktop\PrettyMart\Images\bowl-biryani.jpg" class="img-1" alt="Food 1">
+            <div class="para">
+                <h3>Biryani</h3>
+                <p>600 ml Layers of rice and marinated Paneer Delicate Bland of Indian spice masala Serve with papad raita
+                    Pickle..</p>
+                <span>Rs.261</span>
+            </div>
+        </div>
+        <div class="menu-type">
+
+            <img src="C:\Users\admin\Desktop\PrettyMart\Images\burger.jpg" class="img-1" alt="Food 1">
+            <div class="para">
+                <h3>Burger</h3>
+                <p>A Crispy Peri Peri Potato Patty with Melted Cheese Sauce and our In House Green Coriander Mayo.</p>
+                <span>Rs.250</span>
+            </div>
+        </div>
+        <div class="menu-type">
+
+            <img src="C:\Users\admin\Desktop\PrettyMart\Images\baked-chicken.jpg" class="img-1" alt="Food 1">
+            <div class="para">
+                <h3>Chicken</h3>
+                <p>Chicken Mince Marinated in a mix of ground Spice Powder Roasted Gram Flour Green Chilly Garlic Ginger
+                    Skewered and Grilled Serve with green chutney & salad.</p>
+                <span>Rs.289</span>
+            </div>
+        </div>
+        <div class="menu-type">
+
+            <img src="C:\Users\admin\Desktop\PrettyMart\Images\paneer.jpg" class="img-1" alt="Food 1">
+            <div class="para">
+                <h3>Paneer masala</h3>
+                <p>Our version of the classical butter paneer, reviving the authentic flavours and giving it a new smoky
+                    twist..</p>
+                <span>Rs.450</span>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="team">
+        <p style="text-align: left;">Team member</p>
+        <h2 style="text-align: left;">Our Experience Chefs</h2>
+        <div class="team-item">
+            <img src="C:\Users\admin\Desktop\PrettyMart\Images\Adam Billiard.jpg" class="team-item-img"
+                alt="food-item1">
+            <h3>Adam Billiard</h3>
+            <p>Chef Master</p>
+            <button>Order Now</button>
+
+        </div>
+
+        <div class="team-item">
+            <img src="C:\Users\admin\Desktop\PrettyMart\Images\Fred Macyard.webp" class="team-item-img"
+                alt="food-item2">
+            <h3>Fred Macyard</h3>
+            <p>Chef Master</p>
+            <button>Order Now</button>
+
+        </div>
+        <div class="team-item">
+            <img src="C:\Users\admin\Desktop\PrettyMart\Images\Justin Stuard.jpg" class="team-item-img"
+                alt="food-item3">
+            <h3>Justin Stuard</h3>
+            <p>Chef Master</p>
+            <button>Order Now </button><i class="fa fa-facebook" aria-hidden="true"></i><i class="fas fa-shopping-cart"></i><i class="fa fa-facebook-official"></i>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+</body>
+
 </html>
