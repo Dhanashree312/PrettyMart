@@ -1,0 +1,72 @@
+.box{
+    background-color: rgb(196, 226, 226);
+    height: 550px;
+    width: 360px;
+    border: solid 3px black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border-radius: 15px;
+}
+.pic{
+    height: 50px;
+    width: 200px;
+    margin-left: 75px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.text{
+    color: red;
+    margin-left: 38px;
+    font-size: 18px;
+}
+.texts{
+    margin-left: 102px;
+    margin-top: 60px;
+}
+.tags{
+    margin-left: 50px;
+}
+.tag{
+    margin-left: 130px;
+    margin-top: 100px;
+    
+}
+.tag:hover{
+    color: black;
+    background-color: tomato;
+}
+.boxs{
+    width: 100px;
+    
+}
+.bgs{
+    margin-left: 30px;
+}
+.bts{
+    margin-left: 47px;
+}
+.ghs{
+    margin-left: 49px;
+}
+.already{
+    margin-top: 120px;
+    margin-left: 50px;
+    color: rgb(23, 23, 27);
+    
+}
+.color{
+    color: blue;
+}
+body{
+    background-color:antiquewhite;
+}
+@media screen and (min-width:300px) and (max-width:567px){
+    .box{
+        height: 470px;
+        width: 350px;
+    }
+    .already{
+        margin-top: 40px;
+    }
+}
