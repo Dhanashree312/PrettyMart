@@ -68,11 +68,11 @@
 .Wrow1 button{
     background-color: rgb(78, 35, 97);
     color: white;
-    position: absolute;
+    position: relative;
     border: none;
-    width: 18%;
+    width: 100%;
     height: 50px;
-    bottom:1%;
+   top: 90%;
     border-radius: 0px 0px 20px 20px;
 }
 
@@ -119,11 +119,11 @@
    .Wrow2 button{
        background-color: rgb(78, 35, 97);
        color: white;
-       position: absolute;
-       border: none;
-       width: 18%;
-       height: 50px;
-       bottom:1%;
+       position: relative;
+    border: none;
+    width: 100%;
+    height: 50px;
+   top: 90%;
        border-radius: 0px 0px 20px 20px;
    }
 .Wrow3{
@@ -140,29 +140,49 @@
 }
 
 
-@media(max-width:576px){
-.maincontainer {
-    height: auto;
-    width:100%;
-    display: flex;
-    flex-wrap: wrap;
-   }
-  .btn1{
-      background-color: black;
-      border-radius: 100%;
-      height: 180px;
-      margin: auto;
-      margin-top: 10px;
-      width: 13%;
-      padding: 0%;
-      color: white;
-  }
-  .Wrow1{
+@media (max-width:576px){
+    .maincontainer{
     width: 100%;
-    height: auto;
-  }
-  .Wrow1col{
-    width: 100%;
-    height: 5400px;
-  }
-}
+    }
+    .btn1{
+        width: 16%;
+        height: 100px;
+        margin-left:1px;
+        font-size: 8px;
+    }
+    .Wrow1{
+        width: 100%
+    }
+    .Wrow1col{
+        width: 100%;
+    }
+    
+    .Wrow2{
+        width: 100%
+    }
+    .Wrow2col{
+        width: 100%;
+    }
+    .Wrow3{
+        width: 97%;
+        height: 150px;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .backbtn {
+        background-color:black;
+        padding: 5px;
+        margin-top:0px;
+        width: 149px;
+        margin:auto;
+    }
+    .backbtn a{
+        color: white;
+        margin-top: 10px;
+        text-decoration: none;
+    }
+    }
