@@ -3,6 +3,38 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+<<<<<<< HEAD
+=======
+   }
+  .btn1{
+      background-color: black;
+      border-radius: 100%;
+      height: 190px;
+      margin: auto;
+      margin-top: 10px;
+      width: 13%;
+      padding: 0%;
+      color: white;
+  }
+  .btn1 b{
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .btn1:hover{
+   box-shadow: 3px 3px 3px 3px black;
+  }
+  .homeicon img{
+    width: 20px;
+    height:20px ;
+    margin-bottom: 0px;
+  }
+.Wrow1{
+ display: flex;
+ width: 100%;
+ position: relative;
+ flex-wrap: wrap;
+ height:auto;
+ margin: auto;
+>>>>>>> e6e5990258c25891f5cdcd5606a65f1b447562d1
 }
 
 .btn1 {
@@ -74,11 +106,15 @@
 .Wrow1 button {
     background-color: rgb(78, 35, 97);
     color: white;
-    position: absolute;
+    position: relative;
     border: none;
-    width: 18%;
+    width: 100%;
     height: 50px;
+<<<<<<< HEAD
     bottom: 1%;
+=======
+    top:90%;
+>>>>>>> e6e5990258c25891f5cdcd5606a65f1b447562d1
     border-radius: 0px 0px 20px 20px;
 }
 
@@ -89,6 +125,7 @@
     flex-wrap: wrap;
     height: auto;
     margin: auto;
+<<<<<<< HEAD
 }
 
 .Wrow2col {
@@ -141,6 +178,52 @@
 }
 
 .Wrow3 {
+=======
+   }
+   .Wrow2col{
+       width: 18%;
+       height: 300px;
+       margin: 15px;
+       border-radius: 20px;
+       box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   }
+   #W2img1{
+       background-image: url("./../Images/womenwedding.jpg");
+       background-size: 100% auto;
+       background-repeat: no-repeat;
+   }
+   #W2img2{
+       background-image: url("./../Images/womenparty.jpg");
+       background-size: 100% auto;
+       background-repeat: no-repeat;
+   }
+   #W2img3{
+       background-image: url("./../Images/sleep.webp");
+       background-size: 100% auto;
+       background-repeat: no-repeat;
+   }
+   #W2img4{
+       background-image: url("./../Images/womenwork.jpg");
+       background-size: 100% auto;
+       background-repeat: no-repeat;
+   }
+   #W2img5{
+       background-image: url("./../Images/womensports.jpg");
+       background-size: 100% auto;
+       background-repeat: no-repeat;
+   }
+   .Wrow2 button{
+       background-color: rgb(78, 35, 97);
+       color: white;
+       position: relative;
+       border: none;
+       width: 100%;
+       height: 50px;
+       top: 90%;
+       border-radius: 0px 0px 20px 20px;
+   }
+.Wrow3{
+>>>>>>> e6e5990258c25891f5cdcd5606a65f1b447562d1
     width: 97%;
     height: 560px;
     margin: auto;
@@ -148,12 +231,26 @@
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 30px;
+    margin-bottom: 10px;
     background-image: url("./../Images/sale\ on\ mens2.png");
     background-size: 100% auto;
     background-repeat: no-repeat;
 }
 
+.backbtn {
+    background-color:black;
+    padding: 5px;
+    margin-top:10px;
+    width: 149px;
+    margin:auto;
+}
+.backbtn a{
+    color: white;
+    margin-top: 10px;
+    text-decoration: none;
+}
 
+<<<<<<< HEAD
 @media(max-width:576px) {
     .maincontainer {
 
@@ -183,4 +280,51 @@
     .Wrow1 button{
         width: 80% !important;
     }
+=======
+@media (max-width:576px){
+.maincontainer{
+width: 100%;
+}
+.btn1{
+    width: 16%;
+    height: 100px;
+    margin-left:1px;
+    font-size: 8px;
+}
+.Wrow1{
+    width: 100%
+}
+.Wrow1col{
+    width: 100%;
+}
+
+.Wrow2{
+    width: 100%
+}
+.Wrow2col{
+    width: 100%;
+}
+.Wrow3{
+    width: 97%;
+    height: 150px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.backbtn {
+    background-color:black;
+    padding: 5px;
+    margin-top:0px;
+    width: 155px;
+    margin:auto;
+}
+.backbtn a{
+    color: white;
+    margin-top: 10px;
+    text-decoration: none;
+}
+>>>>>>> e6e5990258c25891f5cdcd5606a65f1b447562d1
 }
