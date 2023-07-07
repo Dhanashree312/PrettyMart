@@ -15,6 +15,9 @@
     margin-bottom: 40px;
     position: relative;
 }
+.card:hover{
+  box-shadow: 2px 2px 2px 2px black;
+}
 #card1{
     background-image: url("../Images/capsicum2.jpg");
    background-size: contain;
@@ -60,6 +63,7 @@
     position: absolute;
     top: 5%;
     left: 3%;
+    box-shadow: 1px 1px 1px 1px darkred;
 
 }
 .card h2{
@@ -118,6 +122,128 @@
     background-color: #99e600;
     transition: 0.5px;
   }
+
+  .mainimage{
+    height: 500px;
+    width: 1200px;
+    position: relative;
+   
+}
+.btn{
+    background-color:green;
+    color: white;
+    margin-top: 290px;
+    margin-left: 79px;
+    height: 50px;
+    width: 115px;
+    border-radius: 15px;
+    padding: 5px;
+}
+.btn:hover{
+    background-color:#99e600;
+    transition:0.5px;
+}
+.conatiner{
+    height: 500px;
+    width: 100%;
+    background-image: url("https://scontent.fnag1-1.fna.fbcdn.net/v/t1.6435-9/105192300_2986502338130162_6166335752857948999_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=qySQgdi-61MAX_K2viU&_nc_ht=scontent.fnag1-1.fna&oh=00_AfAU8xzdzBglkVcBXIV_fHLhXIB5WVyn-zu_duaj10auPw&oe=64CBA4C3");
+    background-size: cover;
+}
+.text{
+    color: #3bb300;
+    text-align: center;
+
+}
+.btn2{
+    display: inline-block;
+    margin-left: 540px;
+    position: relative;
+    background-color: #99e600;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+}
+.btn2:hover{
+    background-color: #3bb300;
+    transition: 0.5s;
+}
+
+.add{
+  height: 400px;
+  width: 1050px;
+  margin: 40px;
+  margin-top: 0px;
+  margin-left: 70px;
+  border:none;
+  box-shadow:2px 2px 2px 2px black;
+  border-radius: 4px;
+}
+.imgadd{
+  height: 400px;
+  width: 1050px;
+}
+
+
+
+
+ @media( max-width:576px){
+  .text{
+    color: #3bb300;
+    text-align: center;
+    width: 100%;
+    margin-left: 430px;
+
+}
+.cardcontainer{
+  width: 100% ;
+  margin-left: 430px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: relative;
+
+}
+.card{
+width: 40%;
+height: 100px;
+border: 2px solid wheat;
+margin-top: 30px;
+margin-bottom: 40px;
+margin-left: 0px;
+position: relative;
+}
+.card h2{
+  margin: 50px;
+  margin-bottom: 30px;
+}
+.rate{
+  margin-left: 70px;
+  position: relative;
+  
+}
+.pg1{ 
+  margin-left: 140px;
+
+}
+.conatiner{
+  height: 150px;
+  width: 90%;
+}
+.btn{
+  position: relative;
+  margin-top:150px;
+    margin-left:10px;
+    height: 25px;
+    width:80px;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 10px;
+
+}
+
+ }
   
 
 
