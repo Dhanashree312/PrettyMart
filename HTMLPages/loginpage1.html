@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crete An Account</title>
+    <style>
+        .box{
+            background-color: rgb(196, 226, 226);
+            height: 550px;
+            width: 360px;
+            border: solid 3px black;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 100px;
+            border-radius: 15px;
+        }
+        .pic{
+            height: 50px;
+            width: 200px;
+            margin-left: 75px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        .text{
+            color: red;
+            margin-left: 38px;
+            font-size: 18px;
+        }
+        .texts{
+            margin-left: 102px;
+            margin-top: 60px;
+        }
+        .tags{
+            margin-left: 50px;
+        }
+        .tag{
+            margin-left: 130px;
+            margin-top: 100px;
+            
+        }
+        .tag:hover{
+            color: black;
+            background-color: tomato;
+        }
+        .boxs{
+            width: 100px;
+            
+        }
+        .bgs{
+            margin-left: 30px;
+        }
+        .bts{
+            margin-left: 47px;
+        }
+        .ghs{
+            margin-left: 49px;
+        }
+        .already{
+            margin-top: 120px;
+            margin-left: 50px;
+            color: rgb(23, 23, 27);
+            
+        }
+        .color{
+            color: blue;
+        }
+        body{
+            background-color:antiquewhite;
+        }
+        @media screen and (min-width:300px) and (max-width:567px){
+            .box{
+                height: 470px;
+                width: 350px;
+            }
+            .already{
+                margin-top: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img class="pic" src="./../Images/logo-removebg-preview.png"/>
+        <form>
+            <h4 class="text">WEL-COME TO PRETTY MART</h4>
+           
+            <h3  class="texts">Create An Account</h3>
+          <span class="tags">Enter Name:</span> 
+           <span class="boxs bgs"> <input type="text"  placeholder="Enter Your Name" required/><br><br></span>
+            <span class="tags">E-mail Id:</span>
+            <span class="boxs bts"><input type="email" placeholder="Enter Your Email" required/><br> <br></span>
+            <span class="tags">Mob.No.:</span>
+            <span class="boxs ghs"> <input type="number" placeholder="Enter Your Mobile Number"/><br><br></span>
+            <span class="tags">Create Password:</span>
+            <span class="boxs"> <input type="password" placeholder="Create Password"/><br><br></span>
+           <span class="tag"> <input type="submit" value="Create Account"/>
+           </span><br>
+
+             
+        </form>
+        <p class="already">Already have an Account?<span class="color"> Login Here</span></p>
+    </div>
+</body>
+</html>

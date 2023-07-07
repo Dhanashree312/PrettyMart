@@ -173,16 +173,4 @@
         margin-top: 30px;
         margin-bottom: 10px;
     }
-    .backbtn {
-        background-color:black;
-        padding: 5px;
-        margin-top:0px;
-        width: 153px;
-        margin:auto;
-    }
-    .backbtn a{
-        color: white;
-        margin-top: 10px;
-        text-decoration: none;
-    }
     }
