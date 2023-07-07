@@ -274,7 +274,7 @@ border: solid 1px #d9d9d9;
     background-color: #a6a6a6;
     margin-top: 20px;
     border-radius: 12px;
-    height: 350px; 
+    height: 350px;
 }
 .camera1{
     position: relative;
@@ -299,6 +299,6 @@ border: solid 1px #d9d9d9;
     top: 30px;
     right: 100px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
+    font-size: 35px;
     color: brown;
 }
