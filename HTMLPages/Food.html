@@ -63,7 +63,7 @@
     }
 
     .header-btn {
-        background-color: #f42f2c;
+        background-color: #f63b1a;
         border: 1px solid transparent;
         color: #fff;
         line-height: 42px;
@@ -73,7 +73,7 @@
         border: none;
         color: #fff;
         text-transform: uppercase;
-        font-weight: 500;
+        font-weight: 500px;
     }
 
     .menu {
@@ -113,6 +113,30 @@
         display: inline-block;
         border: solid 2px rgb(186, 182, 182);
         border-radius: 30px 30px 180px 30px;
+    }
+    .menu-item-h3
+    {
+        font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    }
+    .menu-item-p
+    {
+        font-family: "Lora", serif;
+    line-height: 1.7;
+    font-size: 15px;
+    margin-bottom: 7px;
+    color: #555555;
+    display: block;
+    }
+    .menu-item-btn
+    {
+        background-color: #f63b1a;
+        border-radius: 25px;
+        font-weight: 500px;
+        padding: 8px;
+        color: #fff;
+        border: none;
 
     }
     .container
@@ -160,9 +184,6 @@
         color: #555555;
 
     }
-
-    .section-title {}
-
     .section-title p {
         color: #555555;
         font-size: 16px;
@@ -216,14 +237,22 @@
         display: flex;
         flex-wrap: wrap;
     }
-    .menu-type{
+    .menu-type 
+    {
         width: 40%;
         display: flex;
         margin: auto;
+        border:none;
+        background-color: #eaeaeb;
+        margin: 20px;
+    
+        
     }
-    .img-1 {
-        height: 100px;
-        width: 100px;
+    .img-1
+     {
+        height: 150px;
+        width: 150px;
+    
     }
 
     .para {
@@ -233,20 +262,65 @@
 
     .team {
         padding: 50px;
+        text-align:left;
+    }
+    .team-p
+    {
+        color: #555555;
+        font-size: 18px;
+        margin-bottom:-20px;
+    }
+    .team-h2
+    {
+        font-size: 40px;
+        color: #2c3033;
+        line-height: 1.25;
+        font-weight: 700;
+        position: relative;
+    }
+    .team-container
+    {
+        width: 90%;
+        margin:auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .team-item {
+        display: inline-block;
+        margin: 10px;
+        padding: 30px;
+        width: 30%;
+        border: solid 2px rgb(186, 182, 182);
+        border-radius: 30px 30px 180px 30px;
         text-align: center;
     }
 
-    .team-item {
-        display: inline-block;
-        margin: 20px;
-
-    }
-
     .team-item-img {
-        width: 300px;
-        height: 300px;
-    }
-
+        width: 350px;
+        height: 350px;
+     }
+     .team-h3
+     {
+        font-size: 24px;
+    font-weight: 700;
+    margin-bottom: -5px;
+     }
+     .team-p1
+     {
+     font-family: "Lora", serif;
+    line-height: 1.7;
+    font-size: 15px;
+     color: #555555;
+     }
+     .social-icon
+     {
+        margin-top: 10px;
+        font-size: 14px;
+        display:block;
+        color: #212529;
+      
+     }
    
 </style>
 
@@ -268,24 +342,24 @@
     <div class="menu-container">
     <div class="menu-item">
         <img src="C:\Users\admin\Desktop\PrettyMart\Images\food-item1.webp" alt="food-item1">
-        <h3>Indian Burger</h3>
-        <p>Hungry? Try Our Burgers Made with Half Pound Patties.</p>
-        <button>Order Now</button>
+        <h3 class="menu-item-h3">Indian Burger</h3>
+        <p class="menu-item-p">Hungry? Try Our Burgers Made with Half Pound Patties.</p>
+        <button class="menu-item-btn">Order Now</button>
 
     </div>
 
     <div class="menu-item">
         <img src="C:\Users\admin\Desktop\PrettyMart\Images\food_item_2.png.webp" alt="food-item2">
-        <h3>Cremy Noodles</h3>
-        <p>Easy to prepare, delightful to eat—Cremy Noodles it is!</p>
-        <button>Order Now</button>
+        <h3 class="menu-item-h3">Cremy Noodles</h3>
+        <p class="menu-item-p">Easy to prepare, delightful to eat—Cremy Noodles it is!</p>
+        <button class="menu-item-btn">Order Now</button>
 
     </div>
     <div class="menu-item">
         <img src="C:\Users\admin\Desktop\PrettyMart\Images\food_item_3.png.webp" alt="food-item3">
-        <h3>Honey Meat</h3>
-        <p>Roast beef is a dish of beef that is roasted, generally served as the main dish of a meal.</p>
-        <button>Order Now</button>
+        <h3 class="menu-item-h3">Roast Beaf</h3>
+        <p class="menu-item-p">Roast beef is roasted,served as the main dish of a meal.</p>
+        <button class="menu-item-btn">Order Now</button>
     </div>
     </div>
 
@@ -343,7 +417,7 @@
             <div class="para">
                 <h3>Biryani</h3>
                 <p>600 ml Layers of rice and marinated Paneer Delicate Bland of Indian spice masala Serve with papad raita
-                    Pickle..</p>
+                    Pickle.</p>
                 <span>Rs.261</span>
             </div>
         </div>
@@ -372,7 +446,7 @@
             <div class="para">
                 <h3>Paneer masala</h3>
                 <p>Our version of the classical butter paneer, reviving the authentic flavours and giving it a new smoky
-                    twist..</p>
+                    twist.</p>
                 <span>Rs.450</span>
             </div>
         </div>
@@ -381,33 +455,50 @@
     </div>
 
     <div class="team">
-        <p style="text-align: left;">Team member</p>
-        <h2 style="text-align: left;">Our Experience Chefs</h2>
+        <p class="team-p">Team member</p>
+        <h2 class="team-h2">Our Experience Chefs</h2>
+    </div>
+    <div class="team-container">    
         <div class="team-item">
             <img src="C:\Users\admin\Desktop\PrettyMart\Images\Adam Billiard.jpg" class="team-item-img"
                 alt="food-item1">
-            <h3>Adam Billiard</h3>
-            <p>Chef Master</p>
-            <button>Order Now</button>
+            <h3 class="team-h3">Adam Billiard</h3>
+            <p class="team-p1">Chef Master</p>
+            <div class="social-icon">
+                <a href=""><i class="fab fa-facebook"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-skype"></i></a>
+             </div>  
 
         </div>
 
         <div class="team-item">
             <img src="C:\Users\admin\Desktop\PrettyMart\Images\Fred Macyard.webp" class="team-item-img"
                 alt="food-item2">
-            <h3>Fred Macyard</h3>
-            <p>Chef Master</p>
-            <button>Order Now</button>
+            <h3 class="team-h3">Fred Macyard</h3>
+            <p class="team-p1">Chef Master</p>
+            <div class="social-icon">
+                <a href=""><i class="fab fa-facebook"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-skype"></i></a>
+             </div>  
 
         </div>
         <div class="team-item">
             <img src="C:\Users\admin\Desktop\PrettyMart\Images\Justin Stuard.jpg" class="team-item-img"
                 alt="food-item3">
-            <h3>Justin Stuard</h3>
-            <p>Chef Master</p>
-            <button>Order Now </button><i class="fa fa-facebook" aria-hidden="true"></i><i class="fas fa-shopping-cart"></i><i class="fa fa-facebook-official"></i>
+            <h3 class="team-h3">Justin Stuard</h3>
+            <p class="team-p1">Chef Master</p>
+         <div class="social-icon">
+            <a href=""><i class="fab fa-facebook"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-skype"></i></a>
+         </div>   
+           
         </div>
-
     </div>
 
 
