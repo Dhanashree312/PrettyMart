@@ -219,3 +219,83 @@ width: 100%;
 }
 
 }
+
+
+@media screen and (min-width:580px) and (max-width:768px){
+    .maincontainer{
+    width: 100%;
+    }
+    .btn1{
+        width: 16%;
+        height: 100px;
+        margin-left:1px;
+        font-size:15px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    .Wrow1{
+        width: 100%;
+    }
+    .Wrow1col{
+        width: 80%;
+        height: 600px;
+        margin: auto;
+        margin-top: 45px;
+    }
+    .Wrow1 button{
+        width: 100%;
+        height: 70px;
+        font-size: 20px;
+        top:90%;
+    }
+    
+    .Wrow2{
+        width: 100%
+    }
+    .Wrow2col{
+        width: 80%;
+        height: 600px;
+        margin: auto;
+        margin-top: 45px;
+    }
+    .Wrow2 button{
+        width: 100%;
+        height: 70px;
+        font-size: 20px;
+        top:90%;
+    }
+    .Wrow3{
+        width: 97%;
+        height: 300px;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .backbtn {
+        background-color:black;
+        padding: 5px;
+        margin-top:0px;
+        width: 155px;
+        margin:auto;
+    }
+    .backbtn a{
+        color: white;
+        margin-top: 10px;
+        text-decoration: none;
+    }
+    
+    .video{
+        display: flex;
+        height: 400px;
+        margin:30px ;
+    }
+    .video1{
+        width: 100%;
+     
+    }
+    
+    }
