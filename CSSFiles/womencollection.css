@@ -153,6 +153,16 @@
     text-decoration: none;
 }
 
+.video{
+    display: flex;
+    height: 500px;
+}
+.video1{
+    width: 100%;
+ 
+}
+
+
 @media (max-width:576px){
 .maincontainer{
 width: 100%;
@@ -198,4 +208,14 @@ width: 100%;
     margin-top: 10px;
     text-decoration: none;
 }
+
+.video{
+    display: flex;
+    height: 200px;
+}
+.video1{
+    width: 100%;
+ 
+}
+
 }

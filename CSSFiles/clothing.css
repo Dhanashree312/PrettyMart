@@ -130,6 +130,14 @@ flex-wrap: wrap;
 margin: 20px;
 }
 
+.video{
+    display: flex;
+    height: 500px;
+}
+.video1{
+    width: 100%;
+ 
+}
 @media(max-width:576px) {
     .row-1{
         width: 100%;
@@ -167,6 +175,14 @@ margin: 20px;
             width: 90%;
             height: 150px;
             margin-bottom: 20px;
+        }
+        .video{
+            display: flex;
+            height: 200px;
+        }
+        .video1{
+            width: 100%;
+         
         }
            
 }
