@@ -1,0 +1,317 @@
+.hel{
+    color: #e04e0f;
+}
+.but-1{
+    background-color: #e04e0f;
+    border: #e04e0f;
+    color: white;
+    padding: 7px 20px 7px 20px;
+    margin-left: 300px;
+}
+
+ #main-1{
+    padding-left: 125px;
+   
+    background-image: url("./../images/gym images/firstmain.jpg");
+    background-position: right;
+    background-size: 700px;
+    background-repeat: no-repeat;
+ }
+ #Health{
+    padding-left: 125px;
+   
+    background-image: url("./../images/gym images/health.webp");
+    background-position: right;
+    background-size: 750px;
+    background-repeat: no-repeat;
+    background-color: rgb(11, 9, 9);
+ }
+ .h1{
+    background-color:#e04e0f;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 50px;
+    width: 1525px;
+    
+ }
+ 
+ .video1{
+    margin-left:300px;
+ }
+ .video-tag{
+    height: 540px;
+    width: 1525px;
+    background-color: rgb(19, 19, 19);
+ }
+
+.main{
+    height: 450px;
+    width: 1400px;
+   border: solid 1px black;
+   background-image: url("./../images/gym images/fitnessandhealth.jpg" );
+   background-size:1520px 600px;
+   color: white;
+   font-size: 70px;
+   padding-left: 125px;
+   padding-right: -10px;
+   padding-top: 50px;
+   background-color: black;
+   margin-top: -10px;
+   margin-right: -100px;
+}
+.main-text{
+    font-style: italic;
+    font-size: 40px;
+    margin-left: 200px;
+    color: rgb(162, 163, 164);
+}
+.main-text1{
+font-size: 18px;
+margin-left: 130px;
+color: rgb(87, 88, 88);
+}
+.gym-container{
+    background-color:white;
+    height: 530px;
+    width: 320px;
+    border-radius: 10px; 
+    margin-top: 50px;
+    border: 1px solid rgb(152, 148, 148); 
+    margin-left: 50px;
+    
+   
+}
+.flexbox{
+   
+    display:flex;
+    flex-direction: row;
+}
+
+.image-consonantiam{
+    height:300px;
+    width:300px;
+    border-radius: 10px;
+}
+.image-consonantiam:hover{
+    height:315px;
+    width:320px;
+    border-radius: 10px; 
+}
+body{
+    background-color: rgb(244, 244, 247);
+}
+
+#cost-size1{
+ margin-left: 20px;  
+}
+.cost-size{
+    color: rgb(4, 150, 38);
+    }
+    .Delivery-free{
+        font-size: 14px; 
+        color: #061e88;  
+    }
+    .cost-size2{
+        font-size: 20px;
+       margin-top: px;
+    }
+    
+    .btn-1{
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-left: 2px;
+        border: solid 1px  #e04e0f;
+        border-radius: 5px;
+        text-decoration:none;
+    }
+    .btn-1:hover{
+        background-color: rgb(189, 188, 186);
+        border-radius: 5px;
+        border: solid 1px;
+    }
+    .btn{
+        margin-left: 20px;
+        background-color: rgb(255, 251, 251);
+        color: #e04e0f;
+    }
+    .btn-a{
+        background-color:#e04e0f;
+        color: white;
+    }
+    
+    .btn-showmore {
+        text-decoration: none;
+        background-color:#e04e0f;
+        color: rgb(255, 249, 249);
+        margin-left: 650px;
+        margin-top: 300px;
+        margin-bottom: 400px;
+        padding: 3px;
+        padding-left: 80px;
+        padding-right: 80px;
+        border-radius: 5px;  
+    }
+
+    .btn-showmore:hover{
+        background-color: rgb(90, 78, 78);
+        color: aliceblue;
+        border-radius: 5px;
+        transition: 1s;
+    }
+    .div-showmore{
+       
+        height: 80px;
+        padding-top: 40px;
+    }
+    .img-1{
+        margin-top: 100px;
+      height: 500px;
+        width: 1510px;
+        background-image: url("./../images/gym images/healthback1.jpg");
+        background-size: 900px 600px;
+        background-position:;
+    }
+    .img-2{
+     margin-top: 100px;
+        height: 500px;
+        width: 710px;
+        background-image: url("./../images/gym images/healthback2.jpg");
+        background-size: 1530px 500px;
+       
+       padding-left: 800px;
+        background-repeat:no-repeat; 
+    background-color: black;   }
+    /*tab*/
+    @media screen and (min-width:768px) and (max-width:992px) {
+      
+      .flexbox{
+        display: flex;
+        flex-direction: column;
+      }
+      .btn-showmore {
+        margin-left: 330px;
+      }
+      .gym-container{
+        height: 530px;
+    width: 320px;
+    margin-left: 300px;
+   
+      }
+      .main{
+        height: 350px;
+    width: 855px;
+    background-size: 991px;
+    padding-left: 125px;
+    font-size: 50px;
+      }
+    .main-text{
+        font-size: 30px;
+        margin-left: 100px; 
+    }
+    .main-text1{
+    margin-left: 0px;
+    }
+    .h1{
+       width: 982px;
+       height:80px ; 
+    }
+    .video-tag{
+        width: 982px;
+        height: 400px;
+    }
+    .video1{
+        margin-left: 140px;
+        height: 400px;
+    }
+    #main-1{
+        background-size: 500px;
+
+    }
+    .but-1{
+        margin-left: 100px;
+        padding: 5px 20px 5px 20px;
+    }
+    .img-2{
+        height: 500px;
+        width: 575px;
+        padding-left: 400px;
+    }
+    .img-1{
+            height: 500px;
+              width: 980px   
+    }
+    }
+
+
+/*mobile*/
+
+    @media screen and (min-width:500px) and (max-width:767px) {
+          .flexbox{
+            display: flex;
+            flex-direction: column;
+            
+          }
+    
+          .btn-showmore {
+            margin-left: 260px;
+          }
+          .gym-container{
+            height: 530px;
+        width: 320px;
+        margin-left: 220px;
+       
+          }
+          .main{
+            height: 350px;
+        width: 696px;
+        background-size: 800px;
+        padding-left: 60px;
+        font-size: 40px;
+          }
+        .main-text{
+            font-size: 23px;
+            margin-left: 100px; 
+        }
+        .main-text1{
+        margin-left: 0px;
+        font-size: 10px;
+        }
+        .h1{
+            width: 758px;
+            height:80px ; 
+         }
+         .video-tag{
+             width: 758px;
+             height: 400px;
+         }
+         .video1{
+             margin-left: 20px;
+             height: 400px;
+         }
+         #main-1{
+            background-size: 400px;
+            width: 632px;
+    
+        }
+        .but-1{
+            margin-left: 100px;
+            padding: 3px 10px 3px 10px;
+        } 
+        .img-2{
+            height: 400px;
+            width: 745px;
+            padding-left: 0px;
+            background-size: 730px 400px;
+        }
+        .img-1{
+            height: 400px;
+            width: 745px;
+            padding-left: 0px;
+            background-size: 730px 400px;   
+    }
+        
+        @media screen and (min-width:993px) {
+           
+        }

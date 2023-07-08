@@ -1,0 +1,488 @@
+*{
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.banner{
+    background-image: url("../Media/Copy-of-Unnamed-Design-1.png");
+    height:80vh ;
+    width: 100%;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+  
+    
+}
+.heading{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+.blazer{
+    background-image: url("../Media/Blazer.png");
+    width: 40%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size:contain;
+    position: relative;
+    left: 10%;
+}
+
+
+
+
+.sales-foot{
+    background-color:  rgba(0, 0, 0, 0.3);
+    padding: 15px;
+  text-align: center;
+    position: relative;
+    bottom:-100%;
+}
+#sales-foot{
+    background-color:  rgba(0, 0, 0, 0.3);
+    padding: 15px;
+  text-align: center;
+    position: relative;
+    bottom:-100%;
+    opacity:0;
+    color: whitesmoke;
+}
+.rs{
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: white;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: -1%;
+    transition: all 0.3s ease-in;
+    
+
+}
+.sales-cat:hover #sales-foot{
+    opacity: 1;
+}
+.sales-cat:hover .sales-foot{
+    display: none;
+}
+
+
+#hover{
+    opacity:0;
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: white;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: -1%
+}
+.sales-cat:hover #hover{
+ opacity: 1;   
+}
+
+.sales-cat:hover .rs{
+    display: none;
+}
+
+.offer{
+    background-color: #fb3934;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 50px;
+    position: absolute;
+    top: 2%;
+    left:2%;
+    
+}
+
+
+
+.heading{
+    position: relative;
+    top: 9rem;
+    left: 12rem;
+    display: inline-block;
+}
+
+
+.heading button{
+    margin-top: 5%;
+    padding: 1.05rem;
+    border-radius: 50px;
+    border: none;
+    font-size: 1.7rem;
+    color: white;
+}
+
+.heading small{
+    color:#7046b7;
+}
+#pink{
+    background-color: #fa90d8;
+}
+#purple{
+    background-color: #7046b7;
+}
+
+/* .blazer{
+    display: inline-block;
+    position: absolute;
+    right: 8rem;
+  
+} */
+/* .blazer img{
+    height: 33rem;
+} */
+.service_cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+.card{
+    width: 170px;
+    height:170px;
+    border: none;
+   
+    margin-left: 1px;
+    margin-top: 20px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+   
+    
+    
+    
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card img{
+    transform: rotate(90deg);
+    position: relative;
+    left: 15%;
+    
+}
+.card a{
+    text-decoration: none;
+    position: relative;
+    left: 20%;
+    top: -10%;
+    color: #016a0f;
+    padding: 5px;
+}
+.card a:hover{
+    color: white;
+}
+
+#card1 a{
+    background-color: #fa90d8;
+}
+#card2 a{
+    background-color: #fafca7;
+}
+#card3 a{
+    background-color: #85ace6;
+}
+#card4 a{
+    background-color: #f8c434;
+}
+#card5 a{
+    background-color: #9657e8;
+}
+#card6 a{
+    background-color: #fb585a;
+}
+
+.category{
+  
+    margin-top: 5% !important;
+    width: 70%;
+    
+    margin: auto;
+   
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.cat{
+    border:2px solid red;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    width:30%;
+    height: 190px;
+    margin: 10px;
+    position: relative;
+    border-radius: 5px;
+    
+}
+
+.set_cat{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+}
+.set_cat a{
+    color: #59647d;  
+}
+#cat1{
+   background-image: url("../Media/glasses-category-img-2.jpg");
+   
+   background-size: cover;
+   background-repeat: no-repeat;
+   position: relative;
+   overflow: hidden;
+   transition: background-size 0.7s ease-in-out;
+}
+#cat1:hover{
+    background-size: 110% auto;
+}
+#cat2{
+   background-image: url("../Media/retail-black-friday-small-banner-4-opt.jpg");
+   
+   background-size: cover;
+   background-repeat: no-repeat;
+   position: relative;
+   overflow: hidden;
+   transition: background-size 0.7s ease-in-out;
+}
+#cat2:hover{
+    background-size: 110% auto;
+}
+#cat3{
+   background-image: url("../Media/retail-black-friday-small-banner-1-opt.jpg");
+   
+   background-size: cover;
+   background-repeat: no-repeat;
+   position: relative;
+   overflow: hidden;
+   transition: background-size 0.7s ease-in-out;
+}
+#cat3:hover{
+    background-size: 110% auto;
+}
+#cat4{
+   background-image: url("../Media/retail-black-friday-small-banner-2-opt.jpg");
+   
+   background-size: cover;
+   background-repeat: no-repeat;
+   position: relative;
+   overflow: hidden;
+   transition: background-size 0.7s ease-in-out;
+}
+#cat4:hover{
+    background-size: 110% auto;
+}
+#cat5{
+   background-image: url("../Media/baner-flat-fashion-7.jpg");
+   
+   background-size: cover;
+   background-repeat: no-repeat;
+   position: relative;
+   overflow: hidden;
+   transition: background-size 0.7s ease-in-out;
+}
+#cat5:hover{
+    background-size: 110% auto;
+}
+#cat6{
+   background-image: url("../Media/glasses-category-img-1.jpg");
+   
+   background-size: cover;
+   background-repeat: no-repeat;
+   position: relative;
+   overflow: hidden;
+   transition: background-size 0.9s all;
+}
+#cat6:hover{
+    background-size: 110% auto;
+}
+.deals{
+    margin-top: 3%;
+    position: relative;
+}
+.deals h1{
+    position: relative;
+    top: -15px;
+    color: red;
+    font-size: 48px;
+    text-align: center;
+}
+
+.deals-cat{
+    width:80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.d-cat{
+    margin: 10px;
+   
+    width: 22%;
+    height: 180px;
+    
+   position: relative;
+    
+}
+.d-cat h4{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    top: 80%;
+    opacity: 0;
+    transform: translateY(50%);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.d-cat:hover  h4{
+   opacity:  1;
+   transform: translateY(0);
+}
+#d-cat1{
+    background-image: url("../Media/baner-flat-fashion-7.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   position: relative;
+}
+#d-cat2{
+    background-image: url("../Media/retail-black-friday-small-banner-2-opt.jpg");
+   
+   background-size: cover;
+   background-repeat: no-repeat;
+   position: relative;
+}
+#d-cat3{
+    background-image: url("../Media/retail-black-friday-small-banner-1-opt.jpg");
+   
+   background-size: cover;
+   background-repeat: no-repeat;
+   position: relative;
+}
+#d-cat4{
+    background-image: url("../Media/retail-black-friday-small-banner-4-opt.jpg");
+   
+   background-size: cover;
+   background-repeat: no-repeat;
+   position: relative;
+}
+@media(min-width:768px){
+    .banner h1{
+        font-size:45px;
+        font-weight: bolder;
+    }
+}
+
+.sales{
+    width: 80%;
+   
+    margin: auto;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.sales-cat{
+    margin-bottom: 5% !important;
+    margin: 5px;
+    width: 22%;
+    height: 300px;
+    border: 2px solid black;
+    position: relative;
+}
+#sales-cat1{
+    background-image: url("../Media/Products/Mens-Standard-Fit-Crew-T-Shirt01-600x764.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    
+    position: relative;
+}
+#sales-cat1:hover{
+    background-image: url("../Media/Products/Mens-Standard-Fit-Crew-T-Shirt02-600x764.jpg");
+    background-size: 110% auto;
+}
+#sales-cat2{
+    background-image: url("../Media/Products/WD·NY-Black-Mens-Palm-Burgundy-Jacket01-600x764.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    
+    position: relative;
+}
+#sales-cat2:hover{
+    background-image: url("../Media/Products/WD·NY-Black-Mens-Palm-Burgundy-Jacket02-600x764.jpg");
+    background-size: 110% auto;
+}
+@media(max-width:576px){
+    .heading{
+        position: absolute;
+        top: 15px;
+        left: 30px;
+        margin-top: 12px;
+    }
+    .heading button{
+        font-size: 0.8rem;
+        border-radius: 1rem;
+        padding: 2%;
+        border: none;
+        color: white;
+    
+    }
+
+    .banner h2{
+        font-size:120%;
+        font-weight: 900;
+        margin-top: 0.7rem;
+        margin-bottom: 0.7rem;
+    }
+
+    .category{
+        width: 100%;
+    }
+        .cat{
+            width: 100%;
+        }
+
+        .deals-cat{
+            width: 100%;
+        }
+
+        .d-cat{
+            width: 100%;
+        }
+
+        .sales{
+            width: 100%;
+        }
+        .sales-cat{
+            width: 100%;
+            height: 400px;
+            margin-bottom: 80px !important;
+        }
+
+        .blazer{
+            width: 30%;
+            height: 24vh;
+            left: 60%;
+        }
+        .heading{
+            width: 30%;
+            height: 40vh;
+        }
+        .banner{
+           
+            
+        }
+        .heading h1{
+            font-size: 13px !important;
+        }
+        .heading small{
+            font-size: 7px;
+        }
+}
+

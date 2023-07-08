@@ -1,0 +1,171 @@
+.container{
+    background-image:url("../Images//mainposter.webp");
+    background-size:cover;
+    height: 500px;
+    width: 1200px;
+  }
+  .text{
+    margin-top: 20px;
+    margin-left: 370px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: green;
+  }
+  .button{
+    margin-left: 540px;
+    margin-top: 20px;
+        position: relative;
+        background-color: #99e600;
+        width: 150px;
+        height: 40px;
+        border-radius: 5px;
+    }
+    .button:hover{
+        background-color: #3bb300;
+        transition: 1px;
+    }
+
+  .cardcontainer{
+      width: 80% ;
+      margin:auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      position: relative;
+
+}
+.card{
+width:30%;
+height: 430px;
+border: 2px solid wheat;
+margin-top: 30px;
+margin-bottom: 40px;
+position: relative;
+}
+
+.card:hover{
+  box-shadow: 2px 2px 2px 2px black;
+}
+
+#card1{
+background-image: url("../Images/tomato2.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+position: relative;
+}
+#card2{
+background-image: url("../Images/greenchilli2.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+position: relative;
+}
+#card3{
+background-image: url("../Images/corn.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+position: relative;
+}
+#card4{
+background-image: url("../Images/drumstick3.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+position: relative;
+}
+#card5{
+background-image: url("../Images/red\ chilli.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+position: relative;
+}
+#card6{
+background-image: url("../Images/ladyfinger.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+position: relative;
+}
+.offer{
+background-color: red;
+color:white;
+display: inline-block;
+border-radius: 20px;
+padding: 2px;
+position: absolute;
+top: 5%;
+left: 3%;
+box-shadow: 1px 1px 1px 1px darkred;
+
+}
+.card h2{
+text-align: center;
+position: relative;
+top: 43%;
+
+}
+.card select:{
+
+}
+.rate{
+margin-top: 170px;
+margin-left: 50px;
+height: 30px;
+width: 200px;
+padding-left: 5px;
+padding-right:5px;
+}
+.pg1{
+margin-left: 120px;
+
+}
+.pg2{
+margin-left: 30px;
+margin-top: 0px;
+margin-right: 10px;
+text-align: center;
+
+}
+.quntitybtn{
+margin-left: 30px;
+height:30px;
+width: 100px;
+border-radius: 5px;
+border: none;
+background-color: antiquewhite;
+
+
+}
+.quntitybtn:hover{
+background-color: #3bb300;
+transition: 0.5px;
+}
+.addbtn{
+margin-left: 10px;
+height:30px;
+width: 100px;
+border-radius: 5px;
+background-color: #e6e600;
+border:none;
+
+}
+.addbtn:hover{
+background-color: #99e600;
+transition: 0.5px;
+}
+.btn3{ 
+    margin-left: 1000px;
+    margin-top: 0px;
+        position: relative;
+        background-color: #99e600;
+        width: 150px;
+        height: 30px;
+        border-radius: 5px;
+
+}
+.footer{
+  background-color: #3bb300;
+  color: bisque;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  height: 30px;
+}
