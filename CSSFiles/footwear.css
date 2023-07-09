@@ -213,4 +213,10 @@ background: linear-gradient(green,yellow);
         width: 680px;
         margin-left: 50px;
     }
+    @media screen and (min-width:300px) and (max-width:567px){
+
+        .p{
+            margin-left: 100px;
+        }
+    }
     
