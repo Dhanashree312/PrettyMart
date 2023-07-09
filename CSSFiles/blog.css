@@ -20,6 +20,7 @@ body
     width: 450px;
     border-radius: 10px;
 
+
 }
 .card-details
 {
@@ -28,7 +29,6 @@ body
     height: 380px;
     width: 430px;
     border-radius: 10px;
-    align-items: center;
     margin: 10px;
 
 }
@@ -37,8 +37,18 @@ body
 {
     
     position: relative;
-    top: 40px;
-    padding: 5px;      
+    top: 25px;
+    padding: 5px;   
+    
+    
+}
+.card-img-second
+{
+    
+    left: 60px;
+      
+    
+    
 }
 .card-text-header
 {
@@ -48,7 +58,7 @@ body
     text-align: center;
     color: white;
     position: relative;
-    top: 30px;
+    top: 15px;
     
 }
 
@@ -57,18 +67,32 @@ body
     margin: 10px;
     color: white;
     position: relative;
-    top: 13px;
+    top: 5px;
 }
 
 .btn-more
 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    font-size: 10px;
     border: none;
-    height: 40px;
-    width: 100px;
+    height: 30px;
+    width: 80px;
     background-color: blue;
     color: white;
-    margin: 5px;
     border-radius: 5px;
+    position: relative;
+    left: 5px;
+}
+
+@media screen and (min-width:300px) and (max-width:768px) {
+    .card-container-header
+    {
+        
+        flex-direction: column;
+        position: relative;
+        top: 50px;
+        align-items: center;
+    }
+       
+    
 }
