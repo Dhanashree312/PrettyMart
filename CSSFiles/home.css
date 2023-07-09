@@ -1,6 +1,39 @@
 *{
     margin: 0px;
 }
+/* moving  */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: black;
+  }
+  
+  .moving-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .moving-text span {
+    display: inline-block;
+    white-space: nowrap;
+    animation: move-animation 10s linear infinite;
+  }
+  
+  @keyframes move-animation {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+/*  */
 a{
     text-decoration: none;
     color: black;
@@ -415,6 +448,11 @@ a{
     }
 }
 
+.off-price{
+    position: absolute;
+    top: 6%;
+    left: 5%;
+}
 .sales{
     width: 80%;
    
