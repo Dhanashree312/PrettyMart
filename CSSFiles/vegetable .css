@@ -72,9 +72,7 @@
     top: 43%;
 
 }
-.card select:{
-    
-}
+
 
 .rate{
     margin-top: 170px;
@@ -172,17 +170,17 @@
 
 .add{
   height: 400px;
-  width: 1050px;
-  margin: 40px;
+  width: 100%;
+ 
   margin-top: 0px;
-  margin-left: 70px;
+ 
   border:none;
   box-shadow:2px 2px 2px 2px black;
   border-radius: 4px;
 }
 .imgadd{
   height: 400px;
-  width: 1050px;
+  width: 100%;
 }
 
 

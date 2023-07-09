@@ -1,0 +1,236 @@
+body{
+    margin: 0;
+    
+}
+.navbar{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 1);
+    height: 70px;
+    display: flex;
+    
+    justify-content: center;
+    
+}
+.logo{
+    margin-left: 2%;
+    width: 20%;
+    background-image: url("../Media/logo-removebg-preview.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.navbar>:first-child{
+   margin-right:auto ;
+}
+.navbar>:first-child{
+   margin-left:10px;
+}
+
+
+.hov{
+    width: 7%;
+    padding-left: 2%;
+    position: relative;
+   
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.2rem;
+    font-size:1.3rem;
+    padding: 12px;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    color: white
+  
+}
+.drop{
+    display: flex;
+  display:none;
+    width: 250%;
+    flex-wrap: wrap;
+    background-color:#f5f5ef;
+    justify-content: center;
+    transition: opacity 0.3s ease;
+    position: relative;
+    left: -50%;
+    top: 5%;
+    
+
+
+}
+
+.drop a{
+    
+    color: black;
+    width: 33%;
+    font-size: 16px;
+    margin-bottom: 5px;
+
+}
+
+.drop a:hover{
+    opacity: 0.5;
+    font-size: 16.5px;
+}
+.hov:hover .btns{
+   
+   
+}
+.hov:hover  .drop{
+    display: block;
+    display: flex;
+
+}
+
+
+
+
+.btns {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .btns::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 100%;
+    background-color: #CBB26A;
+    z-index: -1;
+    transition: bottom 0.5s ease;
+  }
+  
+  .btns:hover::before {
+    bottom: 0;
+  }
+/* mobile */
+.mob-nav{
+   
+    width: 100%;
+    
+    display: none;
+    background-color: black;
+    justify-content: space-between;
+
+}
+.menu-index{
+    display: none;
+}
+
+
+  @media(max-width:576px){
+
+    .mob-nav{
+        display: block;
+       
+    }
+    .name{
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar{
+        display: none;
+    }
+    .logo{
+        margin-left: 2%;
+        
+        width: 30%;
+        background-image: url("Media/logo-removebg-preview.png");
+        background-size: fill;
+        background-repeat: no-repeat;
+    }
+
+    .hamburg:hover + .menu-index{
+        display: block;
+    }
+    .mob-drop{
+        display: flex;
+        display: none;
+        width: 60%;
+        flex-wrap: wrap;
+        background-color:rgb(255,255,255,0.3);
+        justify-content: space-between;
+        transition: opacity 0.3s ease;
+        position: relative;
+    }
+    .mob-nav:hover .menu-index{
+        display: block;
+      
+    }
+    
+    .mob-drop a{
+        color: white;
+        margin: 1%;
+    }
+    .btn{
+        background-color: transparent;
+        color: white;
+        border: none;
+        font-size: 1.5rem;
+    }
+    .btn:hover + .mob-drop{
+        display: block;
+        display: flex;
+    }
+  }
+  @media(min-width:577px) and (max-width:780px){
+
+    .mob-nav{
+        display: block;
+       
+    }
+    .name{
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar{
+        display: none;
+    }
+    .logo{
+        margin-left: 2%;
+        
+        width: 15%;
+        background-image: url("Media/logo-removebg-preview.png");
+        background-size: fill;
+        background-repeat: no-repeat;
+    }
+
+    .hamburg:hover + .menu-index{
+        display: block;
+    }
+    .mob-drop{
+        display: flex;
+        display: none;
+        width: 60%;
+        flex-wrap: wrap;
+        background-color:rgb(255,255,255,0.3);
+        justify-content: space-between;
+        transition: opacity 0.3s ease;
+        position: relative;
+    }
+    .mob-nav:hover .menu-index{
+        display: block;
+      
+    }
+    
+    .mob-drop a{
+        color: white;
+        margin: 1%;
+    }
+    .btn{
+        background-color: transparent;
+        color: white;
+        border: none;
+        font-size: 1.5rem;
+    }
+    .btn:hover + .mob-drop{
+        display: block;
+        display: flex;
+    }
+  }
+
+
