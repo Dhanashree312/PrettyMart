@@ -47,7 +47,7 @@ body{
 }
 .drop{
     display: flex;
-  display:none;
+    display:none;
     width: 250%;
     flex-wrap: wrap;
     background-color:#f5f5ef;
@@ -56,7 +56,7 @@ body{
     position: relative;
     left: -50%;
     top: 5%;
-    
+    z-index: 10;
 
 
 }
