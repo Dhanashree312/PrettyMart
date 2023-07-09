@@ -4,7 +4,7 @@ body{
 .footer-container{
     width: 100%;
    
-    background-color: black;
+    background-color: #f2f2f2;
     display: flex;
     justify-content: space-around;
 }
@@ -14,28 +14,32 @@ body{
 
 }
 .foot-logo{
-    background-image: url("../Media/logo-removebg-preview.png");
+    background-image: url("../Media/logoptm.png");
     background-size: contain;
     background-repeat: no-repeat;
     width: 70%;
     height:100px
     
+    
 }
 .block-square{
     display: flex;
+}
+.foot-item a{
+    color: black;
 }
 
 .iconss{
     width: 30px;
     height: 30px;
-    border: 1px solid white;
-    color: white;
+    border: 1px solid black;
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .address-text{
-    color: white;
+    color: black;
     position: relative;
     top: -17px;
     
@@ -57,11 +61,36 @@ body{
 
 .foot-item a:hover pre {
     transform: scale(1.1);
-    color: #CBB26A !important; /* Change the color to your desired hover color */
+    color: #737373 !important; /* Change the color to your desired hover color */
 }
 .add-head{
     font-size: 18px;
     font-weight: bold;
+}
+
+@media(max-width:576px){
+    .footer-container{
+        width: 100%;
+       
+        background-color: #f2f2f2;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .eighty{
+        width: 70%;
+        margin: auto;
+    }
+    .fifty{
+        width: 40%;
+    }
+    .foot-logo{
+        margin: auto;
+    }
+    {
+        margin: auto;
+    }
+
 }
 
 
