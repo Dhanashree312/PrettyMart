@@ -42,10 +42,17 @@ body
     
     
 }
+
+.img-size
+{
+    height: 100px;
+    width: 200px;
+}
+
 .card-img-second
 {
     
-    left: 60px;
+    left: 10px;
       
     
     
@@ -90,9 +97,73 @@ body
         
         flex-direction: column;
         position: relative;
-        top: 50px;
+        top: 20px;
         align-items: center;
     }
+
+    .card-container
+{
+    
+    background-size: 500px 350px;
+    height: 300px;
+    width: 350px;
+    border-radius: 10px;
+
+
+}
+.card-details
+{
+    
+    background-size: 500px 350px;
+    height: 280px;
+    width: 330px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.card-img
+{
+    
+    position: relative;
+    top: 15px;
+        
+}
+
+
+.img-size
+{
+    height: 80px;
+    width: 100px;
+}
+
+.card-img-second
+{
+    
+    left: 60px;
+      
+    
+    
+}
+
+.card-text-header
+{
+   
+    font-size: 15px;
+    position: relative;
+    top: 10px;
+    
+}
+
+.card-text
+{
+    margin: 10px;
+    font-size: 12px;
+    position: relative;
+    top: 5px;
+}
+
+
+
        
     
 }
