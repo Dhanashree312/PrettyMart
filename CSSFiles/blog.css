@@ -10,6 +10,7 @@ body
     justify-content: space-evenly;
     position: relative;
     top: 50px;
+    margin-bottom: 30px;
 }
 
 .card-container
@@ -30,6 +31,7 @@ body
     width: 430px;
     border-radius: 10px;
     margin: 10px;
+    
 
 }
 
@@ -39,6 +41,7 @@ body
     position: relative;
     top: 25px;
     padding: 5px;   
+
     
     
 }
