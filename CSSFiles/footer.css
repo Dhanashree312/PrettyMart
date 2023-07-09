@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+}
+.footer-container{
+    width: 100%;
+   
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+.foot-item{
+    width: 20%;
+    
+
+}
+.foot-logo{
+    background-image: url("../Media/logo-removebg-preview.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 70%;
+    height:100px
+    
+}
+.block-square{
+    display: flex;
+}
+
+.iconss{
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.address-text{
+    color: white;
+    position: relative;
+    top: -17px;
+    
+}
+.line{
+    color:#CBB26A;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.foot-item a{
+  
+    
+    text-decoration: none;
+}
+.foot-item a pre {
+    transition: all 0.3s ease;
+}
+
+.foot-item a:hover pre {
+    transform: scale(1.1);
+    color: #CBB26A !important; /* Change the color to your desired hover color */
+}
+.add-head{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
