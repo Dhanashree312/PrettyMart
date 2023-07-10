@@ -138,8 +138,6 @@
     background-size: 100% auto;
     background-repeat: no-repeat;
 }
-
-
 @media (max-width:576px){
     .maincontainer{
     width: 100%;
