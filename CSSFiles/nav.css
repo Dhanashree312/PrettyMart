@@ -1,22 +1,119 @@
 body{
     margin: 0;
+  
     
 }
+.search{
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+}
+.social-icons{
+    background-color: #737373;
+    width: 100%;
+    
+    display: flex;
+   top: 0;
+    position: sticky;
+    
+   
+    
+}
+.navbar>:first-child{
+    margin-right:auto ;
+ }
+.social-icons >:first-child{
+    margin-right: auto;
+}
+.social{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:10px;
+    padding-bottom: 10px;
+   
+    
+}
+.social a{
+    color: white;
+    font-size: 25px;
+    margin-left: 2rem;
+}
+.social a:hover{
+    transform: scale(1.2);
+}
+
+.wishlist{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 2rem;
+}
+.wishlist a{
+    color: white;
+    font-size: 25px;
+}
+.wishlist a:hover{
+    transform: scale(1.2);
+}
+.carting {
+    display: flex;
+    align-items: center;
+    margin-right:2rem ;
+}
+.carting a{ 
+    color: white;
+    font-size: 25px;
+}
+.carting a:hover{ 
+   transform: scale(1.2);
+}
+.sear{
+    background-color:white;
+    width: 92%;
+    padding: 10px;
+    border-radius:20px ;
+    
+  }
+
+  .sear input{
+    border: none;
+    outline: none;
+    font-size: 12px;
+  }
+  .sear button{
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+  }
+  .signin{
+    display: flex;
+    align-items: center;
+    margin-right:5rem ;
+  }
+  .signin a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
 .navbar{
     width: 100%;
-    background-color: rgba(0, 0, 0, 1);
+    background-color: #f2f2f2;
     height: 70px;
     display: flex;
     
     justify-content: center;
     
+
 }
 .logo{
     margin-left: 2%;
-    width: 20%;
-    background-image: url("../Media/logo-removebg-preview.png");
+    width: 100%;
+    background-image: url("../Media/logoptm.png");
     background-size: contain;
     background-repeat: no-repeat;
+    height: 80px;
 }
 .navbar>:first-child{
    margin-right:auto ;
@@ -37,12 +134,12 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 1.2rem;
-    font-size:1.3rem;
+    font-size:1rem;
     padding: 12px;
     width: 100%;
     background-color: transparent;
     border: none;
-    color: white
+    color: black;
   
 }
 .drop{
@@ -50,15 +147,13 @@ body{
     display:none;
     width: 250%;
     flex-wrap: wrap;
-    background-color:#f5f5ef;
+    background-color: #e6e6e6;
     justify-content: center;
     transition: opacity 0.3s ease;
     position: relative;
     left: -50%;
     top: 5%;
     z-index: 10;
-
-
 }
 
 .drop a{
@@ -75,7 +170,7 @@ body{
     font-size: 16.5px;
 }
 .hov:hover .btns{
-   
+   color: white;
    
 }
 .hov:hover  .drop{
@@ -99,22 +194,26 @@ body{
     left: 0;
     right: 0;
     bottom: 100%;
-    background-color: #CBB26A;
+    background-color: #737373;
     z-index: -1;
     transition: bottom 0.5s ease;
+    
   }
+
+  
   
   .btns:hover::before {
     bottom: 0;
+    
   }
 /* mobile */
 .mob-nav{
    
     width: 100%;
-    
     display: none;
-    background-color: black;
+    background-color:#f2f2f2;
     justify-content: space-between;
+ 
 
 }
 .menu-index{
@@ -124,6 +223,74 @@ body{
 
   @media(max-width:576px){
 
+    .social a{
+        color: white;
+        font-size: 15px;
+     margin-left: 0.5rem;
+    }
+    .wishlist{
+        display: flex;
+        align-items: center;
+        margin-left: rem;
+        margin-right: 0.5rem;
+    }
+    .wishlist a{
+        color: white;
+        font-size: 15px;
+    }
+
+    .carting {
+        display: flex;
+        align-items: center;
+        margin-right:0.5rem ;
+    }
+    .carting a{ 
+        color: white;
+        font-size: 15px;
+    }
+
+    .signin{
+        display: flex;
+        width: 10%;
+        align-items: center;
+        margin-right:0.5rem ;
+      }
+      .signin a{
+        color: white;
+        text-decoration: none;
+        font-size: 12px;
+      }
+
+      .sear{
+        background-color:white;
+        width: 60%;
+        padding: 2px;
+        border-radius:10px ;
+        
+      }
+    
+      .sear input{
+        border: none;
+        outline: none;
+        font-size: 12px;
+        width: 70%;
+      }
+      .sear button{
+        border: none;
+        background-color: transparent;
+        font-size: 12px;
+      }
+
+      .search{
+        justify-content: end;
+        margin-right: 0.5rem;
+        display: flex;
+        align-items: center;
+    }
+    .social-icons >:first-child{
+        margin-right: auto;
+    }
+
     .mob-nav{
         display: block;
        
@@ -131,6 +298,7 @@ body{
     .name{
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
     .navbar{
         display: none;
@@ -139,9 +307,12 @@ body{
         margin-left: 2%;
         
         width: 30%;
-        background-image: url("Media/logo-removebg-preview.png");
+        background-image: url("../Media/logoptm.png");
         background-size: fill;
         background-repeat: no-repeat;
+        position: relative;
+        top: 0.5rem;
+
     }
 
     .hamburg:hover + .menu-index{
@@ -163,12 +334,12 @@ body{
     }
     
     .mob-drop a{
-        color: white;
+       color: black;
         margin: 1%;
     }
     .btn{
         background-color: transparent;
-        color: white;
+   
         border: none;
         font-size: 1.5rem;
     }
@@ -179,6 +350,76 @@ body{
   }
   @media(min-width:577px) and (max-width:780px){
 
+
+
+    .social a{
+        color: white;
+        font-size: 15px;
+     margin-left: 0.5rem;
+    }
+    .wishlist{
+        display: flex;
+        align-items: center;
+        margin-left: rem;
+        margin-right: 0.5rem;
+    }
+    .wishlist a{
+        color: white;
+        font-size: 15px;
+    }
+
+    .carting {
+        display: flex;
+        align-items: center;
+        margin-right:0.5rem ;
+    }
+    .carting a{ 
+        color: white;
+        font-size: 15px;
+    }
+
+    .signin{
+        display: flex;
+        width: 10%;
+        align-items: center;
+        margin-right:0.5rem ;
+      }
+      .signin a{
+        color: white;
+        text-decoration: none;
+        font-size: 12px;
+      }
+
+      .sear{
+        background-color:white;
+        width: 60%;
+        padding: 2px;
+        border-radius:10px ;
+        
+      }
+    
+      .sear input{
+        border: none;
+        outline: none;
+        font-size: 12px;
+        width: 70%;
+      }
+      .sear button{
+        border: none;
+        background-color: transparent;
+        font-size: 12px;
+      }
+
+      .search{
+        justify-content: end;
+        margin-right: 0.5rem;
+        display: flex;
+        align-items: center;
+    }
+    .social-icons >:first-child{
+        margin-right: auto;
+    }
+
     .mob-nav{
         display: block;
        
@@ -186,6 +427,7 @@ body{
     .name{
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
     .navbar{
         display: none;
@@ -194,9 +436,11 @@ body{
         margin-left: 2%;
         
         width: 15%;
-        background-image: url("Media/logo-removebg-preview.png");
+        background-image: url("../Media/logoptm.png");
         background-size: fill;
         background-repeat: no-repeat;
+        position: relative;
+        top: 0.5rem;
     }
 
     .hamburg:hover + .menu-index{
@@ -218,12 +462,12 @@ body{
     }
     
     .mob-drop a{
-        color: white;
+      color: black;
         margin: 1%;
     }
     .btn{
         background-color: transparent;
-        color: white;
+        
         border: none;
         font-size: 1.5rem;
     }

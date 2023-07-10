@@ -1,6 +1,39 @@
 *{
     margin: 0px;
 }
+/* moving  */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: black;
+  }
+  
+  .moving-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .moving-text span {
+    display: inline-block;
+    white-space: nowrap;
+    animation: move-animation 10s linear infinite;
+  }
+  
+  @keyframes move-animation {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+/*  */
 a{
     text-decoration: none;
     color: black;
@@ -9,12 +42,32 @@ a{
     background-image: url("../Media/Copy-of-Unnamed-Design-1.png");
     height:80vh ;
     width: 100%;
-    background-size: 100% auto;
+    background-size:100% auto;
     background-repeat: no-repeat;
     position: relative;
     display: flex;
   
     
+}
+.saless-banner{
+    background-image: url("../Media/b2.jpg");
+    height: 300px;
+    width: 100%;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    margin-bottom: 3rem;
+    
+}
+
+.saless-banner button{
+    padding: 15px;
+    margin-top: 3px;
+    border-radius: 5px;
 }
 .heading{
     width:50%;
@@ -90,16 +143,33 @@ a{
     display: none;
 }
 
+
 .offer{
-    background-color: #fb3934;
+    background-image: url("../Media/offer-back-removebg-preview.png");
     display: inline-block;
     padding: 10px;
     border-radius: 50px;
     position: absolute;
     top: 2%;
-    left:2%;
-    
+    left:3%;
+    width: 10%;
+    height: 30px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;   
+    animation: offer-animation 4s linear infinite;
 }
+@keyframes offer-animation{
+    0%{
+        transform: rotate(0deg);
+    }
+    
+    100%{
+        transform: rotate(360deg);
+    }
+
+}
+
+
 
 
 
@@ -211,7 +281,7 @@ a{
     
 }
 .cat{
-    border:2px solid red;
+   
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
     width:30%;
     height: 190px;
@@ -378,6 +448,11 @@ a{
     }
 }
 
+.off-price{
+    position: absolute;
+    top: 6%;
+    left: 5%;
+}
 .sales{
     width: 80%;
    
@@ -393,7 +468,8 @@ a{
     margin: 5px;
     width: 22%;
     height: 300px;
-    border: 2px solid black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  
     position: relative;
 }
 #sales-cat1{
@@ -424,6 +500,10 @@ a{
         top: 15px;
         left: 30px;
         margin-top: 12px;
+    }
+
+    .banner{
+        height: 200px;
     }
     .heading button{
         font-size: 0.8rem;
@@ -474,10 +554,8 @@ a{
             width: 30%;
             height: 40vh;
         }
-        .banner{
-           
-            
-        }
+       
+      
         .heading h1{
             font-size: 13px !important;
         }
