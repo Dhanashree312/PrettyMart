@@ -144,7 +144,7 @@ body{
 }
 .drop{
     display: flex;
-  display:none;
+    display:none;
     width: 250%;
     flex-wrap: wrap;
     background-color: #e6e6e6;
@@ -154,9 +154,6 @@ body{
     left: -50%;
     top: 5%;
     z-index: 10;
-    
-
-
 }
 
 .drop a{
