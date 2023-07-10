@@ -90,6 +90,28 @@ body{
     
 
 }
+@media(min-width:577px) and (max-width:800px)
+{
+    .footer-container{
+        width: 100%;
+       
+        background-color: #f2f2f2;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .eighty{
+        width: 90%;
+        margin: auto;
+    }
+    .fifty{
+        width: 40%;
+    }
+    .foot-logo{
+    margin: auto;
+    }
+    
+}
 
 
 
