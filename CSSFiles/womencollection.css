@@ -3,8 +3,7 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-<<<<<<< HEAD
-=======
+
    }
   .btn1{
       background-color: black;
@@ -34,7 +33,6 @@
  flex-wrap: wrap;
  height:auto;
  margin: auto;
->>>>>>> e6e5990258c25891f5cdcd5606a65f1b447562d1
 }
 
 .btn1 {
@@ -91,7 +89,7 @@
     background-repeat: no-repeat;
 }
 #Wimg4{
-    background-image: url("./../Images/womenjeans.jpg");
+    background-image: url("./../Images/womenjeans.png");
     background-size: 100% auto;
     background-repeat: no-repeat;
 }
@@ -109,11 +107,8 @@
     border: none;
     width: 100%;
     height: 50px;
-<<<<<<< HEAD
     bottom: 1%;
-=======
     top:90%;
->>>>>>> e6e5990258c25891f5cdcd5606a65f1b447562d1
     border-radius: 0px 0px 20px 20px;
 }
 
@@ -124,7 +119,6 @@
     flex-wrap: wrap;
     height: auto;
     margin: auto;
-<<<<<<< HEAD
 }
 
 .Wrow2col {
@@ -176,9 +170,7 @@
     border-radius: 0px 0px 20px 20px;
 }
 
-.Wrow3 {
-=======
-   }
+
    .Wrow2col{
        width: 18%;
        height: 300px;
@@ -222,7 +214,7 @@
        border-radius: 0px 0px 20px 20px;
    }
 .Wrow3{
->>>>>>> e6e5990258c25891f5cdcd5606a65f1b447562d1
+
     width: 97%;
     height: 560px;
     margin: auto;
@@ -295,3 +287,83 @@ width: 100%;
     text-decoration: none;
 }
 }
+
+    
+@media screen and (min-width:580px) and (max-width:768px){
+    .maincontainer{
+    width: 100%;
+    }
+    .btn1{
+        width: 16%;
+        height: 100px;
+        margin-left:1px;
+        font-size:15px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    .Wrow1{
+        width: 100%;
+    }
+    .Wrow1col{
+        width: 80%;
+        height: 600px;
+        margin: auto;
+        margin-top: 45px;
+    }
+    .Wrow1 button{
+        width: 100%;
+        height: 70px;
+        font-size: 20px;
+        top:90%;
+    }
+    
+    .Wrow2{
+        width: 100%
+    }
+    .Wrow2col{
+        width: 80%;
+        height: 600px;
+        margin: auto;
+        margin-top: 45px;
+    }
+    .Wrow2 button{
+        width: 100%;
+        height: 70px;
+        font-size: 20px;
+        top:90%;
+    }
+    .Wrow3{
+        width: 97%;
+        height: 200px;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .backbtn {
+        background-color:black;
+        padding: 5px;
+        margin-top:0px;
+        width: 155px;
+        margin:auto;
+    }
+    .backbtn a{
+        color: white;
+        margin-top: 10px;
+        text-decoration: none;
+    }
+    
+    .video{
+        display: flex;
+        height: 400px;
+        margin:30px ;
+    }
+    .video1{
+        width: 100%;
+     
+    }
+    
+    }

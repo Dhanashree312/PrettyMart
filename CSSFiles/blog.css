@@ -4,195 +4,169 @@ body
     margin: 0px;
 }
 
-.container
+.card-container-header
 {
+    display: flex;
+    justify-content: space-evenly;
     position: relative;
     top: 50px;
-    display: flex;
-    justify-content: space-around;
+    margin-bottom: 30px;
 }
 
-.container-left
+.card-container
 {
-    margin-left: -100px;
-}
-.container-right
-{
-    margin-right: -50px;
-
-}
-
-.menu-item
-{
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    color: black;
-    padding: 15px;
-   
-}
-
-.header-text
-{
-    font-family: cursive;
-    font-size: 25px;
-    font-weight: bold;
-
-
-}
-
-.btn-signup
-{
-    background-color: #f2f2f2;
-    width: 35px;
-    height: 20px;
-    border-radius: 5px;
-    
-}
-
-.btn-Hire-Creatives
-{
-    background-color: black;
-    font-size: 15px;;
-    width: 35px;
-    height: 20px;
-    color: white;
-    border-radius: 5px;
-}
-
-.pick-header
-{
-    display: flex;
-   position: absolute;
-
-}
-
-.blog-pick
-{
-    border-radius: 50%;
-   position: relative;
-    left: 330px;
-    top: 120px;
-    
-}
-.blog-name
-{
-    font-size: 20px;
-    font-weight: bold;
-   position: relative;
-    top: 90px;
-    left: 350px;
-   
-}
-
-.blog-name-text
-{
-   
-    position: relative;
-    top: 115px;
-    left: 210px;
-    
-}
-
-.btn-save
-{
-    background-color: #e6e6e6;
-    font-size: 15px;
-    height: 50px;
-    width: 70px;
-    border: none;
+    background-image: url('./../images-blog/pick4.jpg');
+    background-size: 600px 450px;
+    height: 400px;
+    width: 450px;
     border-radius: 10px;
+
+
+}
+.card-details
+{
+    background-image: url('./../images-blog/pick2.jpg');
+    background-size: 600px 450px;
+    height: 380px;
+    width: 430px;
+    border-radius: 10px;
+    margin: 10px;
+    
+
+}
+
+.card-img
+{
+    
     position: relative;
-    top: 125px;
-    left: 500px;
+    top: 25px;
+    padding: 5px;   
 
     
+    
 }
-.btn-like
+
+.img-size
+{
+    height: 100px;
+    width: 200px;
+}
+
+.card-img-second
+{
+    
+    left: 10px;
+      
+    
+    
+}
+.card-text-header
 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    background-color: #ff33ff;
-    font-size: 15px;
-    height: 50px;
-    width: 70px;
-    border: none;
-    border-radius: 10px;
-    position: relative;
-    top: 125px;
-    left: 510px;
+    font-size: 30px;
+    text-align: center;
     color: white;
-  
-}
-
-.pick-right
-{
-   
     position: relative;
-   left: 1450px;
-   top: 140px;
-}
-
-.template
-{
-   
-    position: relative;
-    left: 220px;
-    top: 10px;
-    border-radius: 10px;
+    top: 15px;
     
 }
 
-@media screen and (min-width:300px) and (max-width:768px)
+.card-text
 {
-    .container
-{
-    
-    display: flex;
-    flex-direction: row;
+    margin: 10px;
+    color: white;
+    position: relative;
+    top: 5px;
 }
 
-.container-right
+.btn-more
 {
-    margin-right: 100px;
-
-}
-
-.menu-item
-{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 10px;
-    padding: 15px;
-   
-}
-
-.header-text
-{
-    font-family: cursive;
-    font-size: 20px;
-    font-weight: bold;
-    position: relative;
-    top: -50px;;
-
-}
-
-.btn-signup
-{
-    background-color: #f2f2f2;
-    width: 8px;
-    height: 10px;
-    border-radius: 5px;
-    
-}
-
-.btn-Hire-Creatives
-{
-    background-color: black;
-    font-size: 8px;;
-    width: 7px;
-    height: 10px;
+    border: none;
+    height: 30px;
+    width: 80px;
+    background-color: blue;
     color: white;
     border-radius: 5px;
+    position: relative;
+    left: 5px;
 }
 
+@media screen and (min-width:300px) and (max-width:768px) {
+    .card-container-header
+    {
+        
+        flex-direction: column;
+        position: relative;
+        top: 20px;
+        align-items: center;
+    }
 
-}
+    .card-container
+{
     
+    background-size: 500px 350px;
+    height: 300px;
+    width: 350px;
+    border-radius: 10px;
+
+
+}
+.card-details
+{
+    
+    background-size: 500px 350px;
+    height: 280px;
+    width: 330px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.card-img
+{
+    
+    position: relative;
+    top: 15px;
+        
+}
+
+
+.img-size
+{
+    height: 80px;
+    width: 100px;
+}
+
+.card-img-second
+{
+    
+    left: 60px;
+      
+    
+    
+}
+
+.card-text-header
+{
+   
+    font-size: 15px;
+    position: relative;
+    top: 10px;
+    
+}
+
+.card-text
+{
+    margin: 10px;
+    font-size: 12px;
+    position: relative;
+    top: 5px;
+}
+
+
+
+       
+    
+}
