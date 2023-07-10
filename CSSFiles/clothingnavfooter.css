@@ -13,7 +13,7 @@ body{
     width: 100%;
     z-index: 10;
     display: flex;
-   top: 0;
+    top: 0;
     position: sticky;
     
    
@@ -71,7 +71,7 @@ body{
 }
 .sear{
     background-color:white;
-    width: 92%;
+    width: 100%;
     padding: 10px;
     border-radius:20px ;
     
@@ -273,7 +273,7 @@ body{
         border: none;
         outline: none;
         font-size: 12px;
-        width: 70%;
+        width: 20%;
       }
       .sear button{
         border: none;
@@ -337,13 +337,13 @@ body{
        color: black;
         margin: 1%;
     }
-    .btn{
+    .Mbtn{
         background-color: transparent;
    
         border: none;
         font-size: 1.5rem;
     }
-    .btn:hover + .mob-drop{
+    .Mbtn:hover + .mob-drop{
         display: block;
         display: flex;
     }
@@ -401,8 +401,8 @@ body{
       .sear input{
         border: none;
         outline: none;
-        font-size: 12px;
-        width: 70%;
+        font-size: 18px;
+        width: 100%;
       }
       .sear button{
         border: none;
@@ -465,16 +465,139 @@ body{
       color: black;
         margin: 1%;
     }
-    .btn{
+    .Mbtn{
         background-color: transparent;
         
         border: none;
         font-size: 1.5rem;
     }
-    .btn:hover + .mob-drop{
+    .Mbtn:hover + .mob-drop{
         display: block;
         display: flex;
     }
   }
+
+
+
+
+
+  body{
+    margin: 0;
+}
+.footer-container{
+    width: 100%;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-around;
+}
+.foot-item{
+    width: 20%;
+}
+.foot-logo{
+    background-image: url("../Media/logoptm.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 70%;
+    height:100px;
+    
+}
+.block-square{
+    display: flex;
+}
+.foot-item a{
+    color: black;
+    position: relative;
+    top: 20px;
+    margin: 4px;
+}
+
+.iconss{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 20px;
+}
+.address-text{
+    color: black;
+    position: relative;
+    top: 20px;
+    margin: 10px;
+    
+}
+.line{
+    color:#CBB26A;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.foot-item a{
+  
+    
+    text-decoration: none;
+}
+.foot-item a pre {
+    transition: all 0.3s ease;
+}
+
+.foot-item a:hover pre {
+    transform: scale(1.1);
+    color: #737373 !important; /* Change the color to your desired hover color */
+}
+.add-head{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+@media(max-width:576px){
+    .footer-container{
+        width: 100%;
+       
+        background-color: #f2f2f2;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .eighty{
+        width: 70%;
+        margin: auto;
+    }
+    .fifty{
+        width: 40%;
+    }
+    .foot-logo{
+        margin: auto;
+    }
+    
+
+}
+@media(min-width:577px) and (max-width:800px)
+{
+    .footer-container{
+        width: 100%;
+       
+        background-color: #f2f2f2;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .eighty{
+        width: 90%;
+        margin: auto;
+    }
+    .fifty{
+        width: 40%;
+    }
+    .foot-logo{
+    margin: auto;
+    }
+    
+}
+
+
 
 

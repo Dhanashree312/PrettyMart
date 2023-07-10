@@ -1,8 +1,8 @@
 .container{
     background-image:url("../Images//mainposter.webp");
     background-size:cover;
-    height: 500px;
-    width: 1200px;
+    height: 600px;
+    width: 100%;
   }
   .text{
     margin-top: 20px;
