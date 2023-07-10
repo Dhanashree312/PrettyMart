@@ -19,6 +19,7 @@ body{
     padding: 5px;
     margin-bottom: 0px;
     text-align: center;
+    margin-top: 20px;
 }
 .child{
     border-radius: 10px;
@@ -34,19 +35,20 @@ body{
 }
 .promo{
     display: flex;
-    justify-content: space-around;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .promo-child{
  background-color: #d9d9d9;
- align-items: start;
  padding: 15px;
  font-size: 20px;
  width: 465px;
  height: 130px;
  position: relative;
+ border: 1px solid black;
 }
 .promo-child:hover{
     box-shadow: 0px 1px 10px 1px;
@@ -174,11 +176,10 @@ border: solid 1px #d9d9d9;
     padding: 5px;
 }
 
-.logo{
-    height: 70px;
-    margin-right: 10px;
-    margin-left: 0px;
+.video{
+    text-align: center;
 }
+
 .phone{
     position: relative;
     margin-top: 20px;
@@ -324,7 +325,7 @@ border: solid 1px #d9d9d9;
     .parent{
         width: 100%;
         flex-direction: row;
-        padding: 5px;
+        padding: 7px;
     }
     .child{
         width: 10%;
@@ -445,7 +446,7 @@ border: solid 1px #d9d9d9;
     }
      
 }
-@media screen and (min-width:577px) and (max-width: 800px)
+@media screen and (min-width:577px) and (max-width: 830px)
 {
     .parent{
         width: 100%;
