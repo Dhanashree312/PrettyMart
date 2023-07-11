@@ -148,9 +148,6 @@
     color: white;
     text-decoration: none;
 }
-
-
-
 @media (max-width:576px){
     .maincontainer{
     width: 100%;

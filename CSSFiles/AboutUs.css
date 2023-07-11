@@ -1,0 +1,596 @@
+body{
+    margin: 0;
+}
+.Arow1{
+    width: 100%;
+    height:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.Ar1col1{
+    width: 50%;
+    height: auto;
+    background-image: url("./../Images/WhatsApp\ Image\ 2023-07-09\ at\ 5.29.31\ PM.jpeg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.Ar1col2{
+    width: 45%;
+    height: auto;
+    padding: 5px;
+}
+.Arow2{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.Arow2 iframe{
+    margin-left:5%;
+    width: 90%;
+}
+.Arow3{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.Ar3col1{
+ border: 1px solid black;
+ width: 20%;
+ height:auto;
+ margin: 10px;
+ padding: 10px;
+ border-radius: 10px;
+ box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.Noor{
+    height: 300px;
+background-image: url("./../Images/Noor.jpg");
+ background-size: 100% auto;
+ background-repeat: no-repeat;
+ border-radius: 100%;
+}
+.Ar3col2{
+    border: 1px solid black;
+    width: 20%;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.gita{
+    height: 300px;
+    background-image: url("./../Images/gitanjali.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+}
+.Ar3col3{
+    border: 1px solid black;
+    width: 20%;
+    height:auto;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+   
+.dhanashree{
+    height: 300px;
+    background-image: url("./../Images/Dhanashree.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+}
+.Ar3col4{
+    border: 1px solid black;
+    width: 20%;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+   
+.snehal{
+    height: 300px;
+    background-image: url("./../Images/snehal.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+}
+.Arow4{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.Ar4col1{
+ border: 1px solid black;
+ width: 20%;
+ height:auto;
+ margin: 10px;
+ padding: 10px;
+ border-radius: 10px;
+ box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.rahul{
+    height: 300px;
+background-image: url("./../Images/Rahul.jpg");
+ background-size: 100% auto;
+ background-repeat: no-repeat;
+ border-radius: 100%;
+}
+.Ar4col2{
+    border: 1px solid black;
+    width: 20%;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.Atul{
+    height: 300px;
+    background-image: url("./../Images/Atul.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+}
+.Ar4col3{
+    border: 1px solid black;
+    width: 20%;
+    height:auto;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+   
+.Harish{
+    height: 300px;
+    background-image: url("./../Images/Harish.webp");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+}
+.Ar4col4{
+    border: 1px solid black;
+    width: 20%;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+   
+.Abhijeet{
+    height: 300px;
+    background-image: url("./../Images/Abhijeet.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+}
+.logo1{
+    height: 30px;
+    margin: 5px;
+    margin-bottom: 0px;
+}
+.logo2{
+    height: 30px;
+    margin: 5px;
+    margin-bottom: 0px;
+}
+.logo3{
+    height: 30px;
+    margin: 5px;
+    margin-bottom: 0px;
+}
+.title{
+    text-align: center;
+    margin: 0 auto 20px;
+    position: relative;
+    line-height: 60px;
+}
+.title::after{
+    content: '';
+    background: red;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform:translateX(-50%);
+}
+
+@media(max-width:576px){
+    .Arow1{
+        width: 100%;
+        height:auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: 30px;
+    }
+    .Ar1col1{
+        width: 100%;
+        height: 200px;
+        background-image: url("./../Images/WhatsApp\ Image\ 2023-07-09\ at\ 5.29.31\ PM.jpeg");
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+    }
+    .Ar1col2{
+        width: 90%;
+        height: auto;
+        padding: 5px;
+    }
+    .Arow2{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    .Arow3{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: 30px;
+    }
+    .Ar3col1{
+     border: 1px solid black;
+     width: 90%;
+     height:auto;
+     margin: 10px;
+     padding: 10px;
+     border-radius: 10px;
+     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    }
+    .Noor{
+        height: 300px;
+    background-image: url("./../Images/Noor.jpg");
+     background-size: 100% auto;
+     background-repeat: no-repeat;
+     border-radius: 100%;
+    }
+    .Ar3col2{
+        border: 1px solid black;
+        width: 90%;
+        height: auto;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    }
+    .gita{
+        height: 300px;
+        background-image: url("./../Images/gitanjali.jpg");
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        border-radius: 100%;
+    }
+    .Ar3col3{
+        border: 1px solid black;
+        width: 90%;
+        height:auto;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    }
+       
+    .dhanashree{
+        height: 300px;
+        background-image: url("./../Images/Dhanashree.jpg");
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        border-radius: 100%;
+    }
+    .Ar3col4{
+        border: 1px solid black;
+        width: 90%;
+        height: auto;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    }
+       
+    .snehal{
+        height: 300px;
+        background-image: url("./../Images/snehal.jpg");
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        border-radius: 100%;
+    }
+    .Arow4{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .Ar4col1{
+     border: 1px solid black;
+     width: 90%;
+     height:auto;
+     margin: 10px;
+     padding: 10px;
+     border-radius: 10px;
+     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    }
+    .rahul{
+        height: 300px;
+    background-image: url("./../Images/Rahul.jpg");
+     background-size: 100% auto;
+     background-repeat: no-repeat;
+     border-radius: 100%;
+    }
+    .Ar4col2{
+        border: 1px solid black;
+        width: 90%;
+        height: auto;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    }
+    .Atul{
+        height: 300px;
+        background-image: url("./../Images/Atul.jpg");
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        border-radius: 100%;
+    }
+    .Ar4col3{
+        border: 1px solid black;
+        width: 90%;
+        height:auto;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    }
+       
+    .Harish{
+        height: 300px;
+        background-image: url("./../Images/Harish.webp");
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        border-radius: 100%;
+    }
+    .Ar4col4{
+        border: 1px solid black;
+        width: 90%;
+        height: auto;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    }
+       
+    .Abhijeet{
+        height: 300px;
+        background-image: url("./../Images/Abhijeet.jpg");
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        border-radius: 100%;
+    }
+    .logo1{
+        height: 30px;
+        margin: 5px;
+        margin-bottom: 0px;
+    }
+    .logo2{
+        height: 30px;
+        margin: 5px;
+        margin-bottom: 0px;
+    }
+    .logo3{
+        height: 30px;
+        margin: 5px;
+        margin-bottom: 0px;
+    }
+
+}
+@media screen and (min-width:580px) and (max-width:768) {
+    .Arow1{
+        width: 100%;
+        height:auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: 30px;
+    }
+    .Ar1col1{
+        width: 100%;
+        height: 400px;
+        background-image: url("./../Images/WhatsApp\ Image\ 2023-07-09\ at\ 5.29.31\ PM.jpeg");
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+    }
+    .Ar1col2{
+        width: 90%;
+        height: auto;
+        padding: 5px;
+    }
+    .Arow2{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    .Arow3{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: 30px;
+    }
+    .Ar3col1{
+     border: 1px solid black;
+     width: 100%;
+     height:auto;
+     margin: 10px;
+     padding: 10px;
+     border-radius: 10px;
+     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    
+    }
+    .Noor{
+        height: 100px;
+    background-image: url("./../Images/Noor.jpg");
+     background-size: 100% auto;
+     background-repeat: no-repeat;
+     border-radius: 100%;
+    }
+    .Ar3col2{
+        border: 1px solid black;
+        width: 90%;
+        height: auto;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    }
+    .gita{
+        height: 300px;
+        background-image: url("./../Images/gitanjali.jpg");
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        border-radius: 100%;
+    }
+    .Ar3col3{
+        border: 1px solid black;
+        width: 90%;
+        height:auto;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    }
+       
+    .dhanashree{
+        height: 300px;
+        background-image: url("./../Images/Dhanashree.jpg");
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        border-radius: 100%;
+    }
+    .Ar3col4{
+        border: 1px solid black;
+        width: 90%;
+        height: auto;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    }
+       
+    .snehal{
+        height: 300px;
+        background-image: url("./../Images/snehal.jpg");
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        border-radius: 100%;
+    }
+    .Arow4{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .Ar4col1{
+     border: 1px solid black;
+     width: 90%;
+     height:auto;
+     margin: 10px;
+     padding: 10px;
+     border-radius: 10px;
+     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    }
+    .rahul{
+        height: 300px;
+    background-image: url("./../Images/Rahul.jpg");
+     background-size: 100% auto;
+     background-repeat: no-repeat;
+     border-radius: 100%;
+    }
+    .Ar4col2{
+        border: 1px solid black;
+        width: 90%;
+        height: auto;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    }
+    .Atul{
+        height: 300px;
+        background-image: url("./../Images/Atul.jpg");
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        border-radius: 100%;
+    }
+    .Ar4col3{
+        border: 1px solid black;
+        width: 90%;
+        height:auto;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    }
+       
+    .Harish{
+        height: 300px;
+        background-image: url("./../Images/Harish.webp");
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        border-radius: 100%;
+    }
+    .Ar4col4{
+        border: 1px solid black;
+        width: 90%;
+        height: auto;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    }
+       
+    .Abhijeet{
+        height: 300px;
+        background-image: url("./../Images/Abhijeet.jpg");
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        border-radius: 100%;
+    }
+    .logo1{
+        height: 30px;
+        margin: 5px;
+        margin-bottom: 0px;
+    }
+    .logo2{
+        height: 30px;
+        margin: 5px;
+        margin-bottom: 0px;
+    }
+    .logo3{
+        height: 30px;
+        margin: 5px;
+        margin-bottom: 0px;
+    }
+
+    
+}

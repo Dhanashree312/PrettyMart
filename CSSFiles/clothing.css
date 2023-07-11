@@ -6,7 +6,6 @@
 body{
  font-family: 'Poppins', sans-serif;
 }
- 
  .row-1{
  display: flex;
  align-items: center;
@@ -14,6 +13,7 @@ body{
  justify-content: space-around;
  background: linear-gradient(rgb(208, 129, 183),#709ad1);
  width:100%;
+ margin: 20px;
  margin-left: 0px;
  margin-right: 0px;
  }
@@ -43,7 +43,23 @@ body{
     border-radius: 30px;
     transition: 1s;
 }
-
+.title{
+    text-align: center;
+    margin: 0 auto 20px;
+    position: relative;
+    line-height: 60px;
+}
+.title::after{
+    content: '';
+    background: rgb(196, 70, 131);
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform:translateX(-50%);
+}
 .row-2{
     width: 80%;
     margin: auto;
@@ -57,14 +73,14 @@ h2{
 .row-2col{
     width: 43%;
     height: 350px;
-    margin-top: 30px;
+    margin-top: 80px;
     margin-bottom: 65px;
     position: relative;
+    border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 .row-2col:hover{
-    border-radius: 20px;
-    transition: 1.5s;
+      transform: scale(1.1);
 }
 #img1{ 
     background-image: url("./../Images/womens.jpg");
@@ -88,9 +104,9 @@ h2{
 }
 .row-2col h3{
     position: relative;
-    top:-12%;
+    top:-20%;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 .row-2 a{
     position: relative;
@@ -99,7 +115,7 @@ h2{
     padding: 7px;
     border-radius: 2rem;
     position: relative;
-    bottom: -94%;
+    top: 95%;
     left: 40%;
     text-decoration: none;
 }
@@ -117,12 +133,26 @@ h2{
     background-size: 100% auto;
     background-repeat: no-repeat;
 }
+.title-2{
+ font-size: 40px; 
+  font-weight: bold;
+  color: #ff0000; 
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 0; 
+  background-color: #0e0e08;
+  margin-top: 50px;
+}
+.title-2:hover{
+    color: black;
+    background-color: #ff0000; 
+}
 .row-3{
     width: 100%;
 }
 .row-3col{
 width: 98%;
-height: 560px;
+height: 500px;
 margin: auto;
 display: flex;
 justify-content: space-around;
@@ -138,6 +168,7 @@ margin: 20px;
     width: 100%;
  
 }
+
 @media(max-width:576px) {
     .row-1{
         width: 100%;
@@ -154,6 +185,12 @@ margin: 20px;
         height: 210px;
         padding: 10px;
     }
+    hr{
+        margin:0px;
+    }
+    .title{
+        margin: 0px;
+    }
         .row-2{
             width: 100%;
         }
@@ -162,12 +199,27 @@ margin: 20px;
             height: 200px;
         }
         .row-2col h3{
-            top: -23%;
+            top: -40%;
             text-align: center;
         }
         .row-2col a{
             margin: auto;
+            top: 85%;
+            left: 35%;
         }
+        .title-2{
+            font-size: 30px; 
+             font-weight: bold;
+             color: #ff0000; 
+             text-align: center;
+             text-transform: uppercase;
+             padding: 3px 0; 
+             background-color: #0e0e08;
+             margin-top: 50px;
+           }
+           .title-2 img{
+            height: 25px;
+           }
         .row-3{
             width: 100%;
         }
@@ -178,7 +230,7 @@ margin: 20px;
         }
         .video{
             display: flex;
-            height: 200px;
+            height: 250px;
         }
         .video1{
             width: 100%;
@@ -205,6 +257,13 @@ margin: 20px;
         height: 250px;
         padding: 0px;
     }
+    hr{
+        margin:0px;
+    }
+    .title{
+        margin: 0px;
+        font-size: 40px;
+    }
         .row-2{
             width: 100%;
         }
@@ -213,11 +272,14 @@ margin: 20px;
             height: 400px;
         }
         .row-2col h3{
-            top: -10%;
+            top: -20%;
             text-align: center;
+            font-size:30px;
         }
         .row-2col a{
             margin: auto;
+            top: 90%;
+            padding: 10px;
         }
         .row-3{
             width: 100%;

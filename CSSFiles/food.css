@@ -11,6 +11,7 @@
         background-size: cover;
         background-position: center;
         position: relative;
+        margin-left: 70px;
 
     }
 
@@ -73,6 +74,7 @@
         position: relative;
         margin-bottom: 50px;
         margin-top: 200px;
+        margin-left: 70px;
     }
 
     .menu-p {
@@ -219,6 +221,7 @@
     .container-menu {
         display: flex;
         margin-top: 170px;
+        margin-left: 70px;
     }
 
     .menu-item-1
@@ -253,7 +256,7 @@
     }
 
     .team {
-        padding: 50px;
+        padding: 70px;
         text-align:left;
     }
     .team-p
@@ -312,20 +315,4 @@
         display:block;
         color: #212529;
       }
-   @media(max-width:576px){
-    .banner-text{
-        width:100%;
-    }
-    .menu-item img{
-        width:25%;
-    }
-    .menu-container{
-        display: flex;
-        width: 100%;
-        flex-wrap: wrap;
-    }
-    .menu-item{
-        width: 100%;
-    }
-
-   }
+  
